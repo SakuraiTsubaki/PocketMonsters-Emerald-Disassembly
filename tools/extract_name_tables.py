@@ -38,22 +38,24 @@ def decode_name(raw: bytes, japanese: bool):
     out=[]; unknown=[]; eos=None
     for i,b in enumerate(raw):
         if b == EOS:
-            eos = i; break
+            eos = i
+            break
         ch=table.get(b)
         if ch is None:
-            unknown.append(b); out.append(f'<{b:02X}>')
+            unknown.append(b)
+            out.append(f'<{b:02X}>')
         else:
             out.append(ch)
     return ''.join(out), unknown, eos
 
 
 def verify_and_load(ref, rom_dir):
-    p=rom_dir/ref['source_filename']
-    b=p.read_bytes()
-    got=hashlib.sha1(b).hexdigest()
+    path=rom_dir/ref['source_filename']
+    data=path.read_bytes()
+    got=hashlib.sha1(data).hexdigest()
     if got != ref['sha1']:
         raise ValueError(f"SHA-1 mismatch for {ref['id']}: {got}")
-    return b
+    return data
 
 
 def main():
@@ -63,39 +65,47 @@ def main():
     ap.add_argument('--headers', type=Path, default=Path('analysis/gf_rom_headers.json'))
     ap.add_argument('--out-dir', type=Path, default=Path('text/name_tables'))
     args=ap.parse_args()
+
     manifest=json.loads(args.manifest.read_text(encoding='utf-8'))
     refs={r['id']:r for r in manifest['references']}
     headers=json.loads(args.headers.read_text(encoding='utf-8'))['records']
     args.out_dir.mkdir(parents=True, exist_ok=True)
     summary=[]
+
     for h in headers:
-        rid=h['id']; rom=verify_and_load(refs[rid],args.rom_dir)
+        rid=h['id']
+        rom=verify_and_load(refs[rid], args.rom_dir)
         japanese=(rid=='JPN')
         species_width=6 if japanese else 11
         move_width=8 if japanese else 13
         gap=h['moveNames_rom_offset']-h['monSpeciesNames_rom_offset']
         if gap != SPECIES_RECORDS*species_width:
             raise ValueError(f'{rid}: species table gap {gap:#x} != {SPECIES_RECORDS}*{species_width}')
+
         for kind,root,count,width in [
             ('species',h['monSpeciesNames_rom_offset'],SPECIES_RECORDS,species_width),
             ('moves',h['moveNames_rom_offset'],MOVE_RECORDS,move_width),
         ]:
-            rows=[]; unknown_total=[]; missing_eos=[]
+            lines=[]; unknown_total=[]; missing_eos=[]
             for index in range(count):
                 raw=rom[root+index*width:root+(index+1)*width]
                 text,unknown,eos=decode_name(raw,japanese)
                 unknown_total.extend(unknown)
-                if eos is None: missing_eos.append(index)
-                rows.append({'index':index,'rom_offset':f'0x{root+index*width:08X}','width':width,
-                             'raw_hex':raw.hex().upper(),'eos_index':'' if eos is None else eos,'text':text})
-            csv_path=args.out_dir/f'{rid.lower()}_{kind}.csv'
-            with csv_path.open('w',encoding='utf-8',newline='') as f:
-                w=csv.DictWriter(f,fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
-            summary.append({'release':rid,'table':kind,'root_rom_offset':f'0x{root:08X}',
-                'record_count':count,'record_width':width,'unknown_code_count':len(unknown_total),
+                if eos is None:
+                    missing_eos.append(index)
+                lines.append(f'{index:03d}\t{text}\n')
+            (args.out_dir/f'{rid.lower()}_{kind}.txt').write_text(''.join(lines), encoding='utf-8')
+            summary.append({
+                'release':rid,'table':kind,'root_rom_offset':f'0x{root:08X}',
+                'record_count':count,'record_width':width,
+                'unknown_code_count':len(unknown_total),
                 'unknown_codes':' '.join(f'{b:02X}' for b in sorted(set(unknown_total))),
-                'missing_eos_count':len(missing_eos)})
-    with (args.out_dir/'summary.csv').open('w',encoding='utf-8',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=list(summary[0])); w.writeheader(); w.writerows(summary)
+                'missing_eos_count':len(missing_eos),
+            })
 
-if __name__=='__main__': main()
+    with (args.out_dir/'summary.csv').open('w',encoding='utf-8',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=list(summary[0]))
+        w.writeheader(); w.writerows(summary)
+
+if __name__=='__main__':
+    main()
