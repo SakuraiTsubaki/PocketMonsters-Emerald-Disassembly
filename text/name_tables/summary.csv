@@ -1,0 +1,13 @@
+release,table,root_rom_offset,record_count,record_width,unknown_code_count,unknown_codes,missing_eos_count
+JPN,species,0x002EA31C,412,6,0,,0
+JPN,moves,0x002EACC4,355,8,0,,0
+ENG_USA_EUR,species,0x003185C8,412,11,0,,0
+ENG_USA_EUR,moves,0x0031977C,355,13,0,,0
+FRA,species,0x003200F8,412,11,0,,0
+FRA,moves,0x003212AC,355,13,0,,0
+DEU,species,0x0032CF38,412,11,0,,0
+DEU,moves,0x0032E0EC,355,13,0,,0
+ITA,species,0x00317F8C,412,11,0,,0
+ITA,moves,0x00319140,355,13,0,,0
+ESP,species,0x0031E82C,412,11,0,,0
+ESP,moves,0x0031F9E0,355,13,0,,0
