@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "record_count": 377,
+  "all_unique_releases_semantic_core_identical": true,
+  "normalized_core_sha1": "7d284b3d91bb2270e8123dfa70f18c8418a1c375",
+  "full_analysis_archive": "analysis/localized_tables_full.tar.xz",
+  "archive_member_pattern": "items/<RELEASE>.csv",
+  "release_layouts": [
+    {"release":"JPN","root_rom_offset":"0x0055CEE8","name_length":10,"record_stride":40,"table_sha1":"cf9705b694382e68762b4efbf533e7695e130010","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"ENG_USA_EUR","root_rom_offset":"0x005839A0","name_length":14,"record_stride":44,"table_sha1":"f563abf290d85dc04a53618ee15855304bb7f682","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"FRA","root_rom_offset":"0x00587D6C","name_length":14,"record_stride":44,"table_sha1":"2bae1bf4999314f7533fb8e6b18fb153f03d31aa","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"DEU","root_rom_offset":"0x005946DC","name_length":14,"record_stride":44,"table_sha1":"333ce9e9d11a9dc640b10c2258f3ea814dc7250f","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"ITA","root_rom_offset":"0x0058000C","name_length":14,"record_stride":44,"table_sha1":"53d9ad3516c2d267c770c4370c7af8a489823384","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"ESP","root_rom_offset":"0x0058639C","name_length":14,"record_stride":44,"table_sha1":"a410798130e6054e31a81add95cd038394986e95","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]}
+  ]
+}

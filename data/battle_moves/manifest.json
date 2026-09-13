@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "record_count": 355,
+  "record_stride": 12,
+  "semantic_size": 9,
+  "byte_length": 4260,
+  "shared_table_sha1": "63a1fe0825ad09a1d3f0d0ba812c56a06f0a53bc",
+  "all_unique_releases_byte_identical": true,
+  "segments": ["000-176", "177-354"],
+  "release_roots": [
+    {"release":"JPN","root_rom_offset":"0x002ED220","sha1":"63a1fe0825ad09a1d3f0d0ba812c56a06f0a53bc"},
+    {"release":"ENG_USA_EUR","root_rom_offset":"0x0031C898","sha1":"63a1fe0825ad09a1d3f0d0ba812c56a06f0a53bc"},
+    {"release":"FRA","root_rom_offset":"0x00324408","sha1":"63a1fe0825ad09a1d3f0d0ba812c56a06f0a53bc"},
+    {"release":"DEU","root_rom_offset":"0x00331258","sha1":"63a1fe0825ad09a1d3f0d0ba812c56a06f0a53bc"},
+    {"release":"ITA","root_rom_offset":"0x0031C298","sha1":"63a1fe0825ad09a1d3f0d0ba812c56a06f0a53bc"},
+    {"release":"ESP","root_rom_offset":"0x00322B54","sha1":"63a1fe0825ad09a1d3f0d0ba812c56a06f0a53bc"}
+  ]
+}

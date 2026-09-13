@@ -7,11 +7,12 @@
   "shared_table_sha1": "cdac81dc5f81aa165042d490935335f4e0d21a85",
   "all_unique_releases_byte_identical": true,
   "release_roots": [
-    {"release": "JPN", "root_rom_offset": "0x002F0D54", "byte_length": 11536, "sha1": "cdac81dc5f81aa165042d490935335f4e0d21a85"},
-    {"release": "ENG_USA_EUR", "root_rom_offset": "0x003203CC", "byte_length": 11536, "sha1": "cdac81dc5f81aa165042d490935335f4e0d21a85"},
-    {"release": "FRA", "root_rom_offset": "0x00327F3C", "byte_length": 11536, "sha1": "cdac81dc5f81aa165042d490935335f4e0d21a85"},
-    {"release": "DEU", "root_rom_offset": "0x00334D8C", "byte_length": 11536, "sha1": "cdac81dc5f81aa165042d490935335f4e0d21a85"},
-    {"release": "ITA", "root_rom_offset": "0x0031FDCC", "byte_length": 11536, "sha1": "cdac81dc5f81aa165042d490935335f4e0d21a85"},
-    {"release": "ESP", "root_rom_offset": "0x00326688", "byte_length": 11536, "sha1": "cdac81dc5f81aa165042d490935335f4e0d21a85"}
-  ]
+    {"release":"JPN","root_rom_offset":"0x002F0D54","byte_length":11536,"sha1":"cdac81dc5f81aa165042d490935335f4e0d21a85"},
+    {"release":"ENG_USA_EUR","root_rom_offset":"0x003203CC","byte_length":11536,"sha1":"cdac81dc5f81aa165042d490935335f4e0d21a85"},
+    {"release":"FRA","root_rom_offset":"0x00327F3C","byte_length":11536,"sha1":"cdac81dc5f81aa165042d490935335f4e0d21a85"},
+    {"release":"DEU","root_rom_offset":"0x00334D8C","byte_length":11536,"sha1":"cdac81dc5f81aa165042d490935335f4e0d21a85"},
+    {"release":"ITA","root_rom_offset":"0x0031FDCC","byte_length":11536,"sha1":"cdac81dc5f81aa165042d490935335f4e0d21a85"},
+    {"release":"ESP","root_rom_offset":"0x00326688","byte_length":11536,"sha1":"cdac81dc5f81aa165042d490935335f4e0d21a85"}
+  ],
+  "segments": ["000-102","103-205","206-308","309-411"]
 }

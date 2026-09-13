@@ -7,6 +7,7 @@ from pathlib import Path
 RECORD_COUNT = 412
 RECORD_STRIDE = 0x1C
 SEMANTIC_SIZE = 0x1A
+SEGMENTS = [(0, 102), (103, 205), (206, 308), (309, 411)]
 
 
 def sha1(data: bytes) -> str:
@@ -104,10 +105,11 @@ def main() -> None:
     if any(row['padding_hex'] != '0000' for row in rows):
         raise ValueError('nonzero SpeciesInfo record padding found')
 
-    with (args.out_dir / 'species_info.csv').open('w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]))
-        writer.writeheader()
-        writer.writerows(rows)
+    for start, end in SEGMENTS:
+        with (args.out_dir / f'species_info_{start:03d}_{end:03d}.csv').open('w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows[start:end + 1])
 
     meta = {
         'schema_version': 1,
@@ -117,6 +119,7 @@ def main() -> None:
         'byte_length': len(shared_table),
         'shared_table_sha1': sha1(shared_table),
         'all_unique_releases_byte_identical': True,
+        'segments': [f'{a:03d}-{b:03d}' for a, b in SEGMENTS],
         'release_roots': releases,
     }
     (args.out_dir / 'manifest.json').write_text(json.dumps(meta, indent=2) + '\n', encoding='utf-8')

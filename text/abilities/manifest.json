@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "record_count": 78,
+  "full_analysis_archive": "analysis/localized_tables_full.tar.xz",
+  "archive_member_pattern": "abilities/<RELEASE>.csv",
+  "releases": [
+    {"release":"JPN","ability_name_root":"0x002EBDC4","ability_name_width":8,"description_root":"0x002EC034","description_storage":"concatenated_eos_strings","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"ENG_USA_EUR","ability_name_root":"0x0031B6DB","ability_name_width":13,"description_root":"0x0031BAD4","description_storage":"pointer_table","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"FRA","ability_name_root":"0x0032324E","ability_name_width":13,"description_root":"0x00323644","description_storage":"pointer_table","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"DEU","ability_name_root":"0x0033009E","ability_name_width":13,"description_root":"0x00330494","description_storage":"pointer_table","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"ITA","ability_name_root":"0x0031B0DB","ability_name_width":13,"description_root":"0x0031B4D4","description_storage":"pointer_table","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]},
+    {"release":"ESP","ability_name_root":"0x00321999","ability_name_width":13,"description_root":"0x00321D90","description_storage":"pointer_table","unknown_decoded_byte_count":0,"unknown_decoded_bytes":[]}
+  ]
+}
