@@ -53,4 +53,12 @@ build/        generated output (ignored by Git)
 
 ## Status
 
-Bootstrap phase. Reference ROM identities have been recorded and the reconstruction policy/tooling skeleton is being established before bank/region-by-region extraction begins.
+Phase 1 is in progress.
+
+- all seven supplied ROM files have been identified and hashed; the two English inputs are byte-identical, leaving six unique release payloads
+- the complete 16 MiB address space has an initial 64 KiB cross-release comparison map
+- Block 00 (`0x000000-0x00FFFF`) has its first semantic anchors: GBA cartridge header, Game Freak metadata header at `0x100-0x203`, and executable startup at `0x204`
+- the Game Freak metadata header has been decoded for every unique release and now supplies direct roots for Pokémon names, move names, species data, abilities, items, battle moves, sprites, palettes, icons and Poké Ball graphics
+- reproducible block-analysis and metadata-header extraction tools are in `tools/`
+
+Next work follows those roots into structured text/gameplay tables and graphics, while executable lifting continues through the remaining Block 00 code. Every extracted structure is checked across all six unique releases before reconstruction work depends on it.
