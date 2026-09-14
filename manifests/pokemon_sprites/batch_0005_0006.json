@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "batch": "pokemon-sprites-0005-0006",
+  "strategy": "small commits; one canonical asset set shared by all verified Emerald releases; duplicate hashes are not stored twice",
+  "canonical_release": "JPN",
+  "verified_releases": ["JPN", "ENG_U", "ENG_USA_EUR", "FRA", "DEU", "ITA", "ESP"],
+  "species": [
+    {"slot":5,"name":"charmeleon","images":["front_normal.png","front_shiny.png","back_normal.png","back_shiny.png","icon.png"],"source_bundle":"manifests/pokemon_sprites/sources_005_006.json"},
+    {"slot":6,"name":"charizard","images":["front_normal.png","front_shiny.png","back_normal.png","back_shiny.png","icon.png"],"source_bundle":"manifests/pokemon_sprites/sources_005_006.json"}
+  ]
+}
