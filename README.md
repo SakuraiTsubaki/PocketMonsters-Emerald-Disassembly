@@ -62,3 +62,16 @@ Phase 1 is in progress.
 - reproducible block-analysis and metadata-header extraction tools are in `tools/`
 
 Next work follows those roots into structured text/gameplay tables and graphics, while executable lifting continues through the remaining Block 00 code. Every extracted structure is checked across all six unique releases before reconstruction work depends on it.
+
+## 📚 Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Documentation Hub](docs/README.md) | Central entry point for project documentation |
+| [Project Status](docs/PROJECT_STATUS.md) | Reconstruction and matching status |
+| [Version Coverage](docs/VERSIONS.md) | Supported releases, revisions, sizes, and hashes |
+| [Disassembly Standards](docs/DISASSEMBLY_STANDARDS.md) | Source reconstruction and provenance standards |
+| [Build and Matching](docs/BUILD_AND_MATCHING.md) | Reproducible build and exact-match workflow |
+| [Verification](docs/VERIFICATION.md) | Evidence levels and matching criteria |
+| [Asset Workflow](docs/ASSET_WORKFLOW.md) | Graphics, sprites, deduplication, manifests, and review batches |
+| [Contributing](CONTRIBUTING.md) | Contribution and pull-request guidance |
