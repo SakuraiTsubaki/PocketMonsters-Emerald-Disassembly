@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "batch": "pokemon-sprites-0003-0004",
+  "strategy": "small commits; canonical sprite data shared across verified Emerald releases; no duplicate image aliases",
+  "canonical_release": "JPN",
+  "verified_releases": ["JPN", "ENG_U", "ENG_USA_EUR", "FRA", "DEU", "ITA", "ESP"],
+  "species": [
+    {"slot":3,"name":"venusaur","images":["front_normal.png","front_shiny.png","back_normal.png","back_shiny.png","icon.png"]},
+    {"slot":4,"name":"charmander","images":["front_normal.png","front_shiny.png","back_normal.png","back_shiny.png","icon.png"]}
+  ],
+  "raw_source_bundle": "manifests/pokemon_sprites/sources_003_004.json"
+}
