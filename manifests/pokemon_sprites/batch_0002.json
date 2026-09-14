@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "batch": "pokemon-sprites-0002",
+  "strategy": "small commits; content-hash deduplication across Emerald releases",
+  "canonical_release": "JPN",
+  "verified_releases": ["JPN", "ENG_U", "ENG_USA_EUR", "FRA", "DEU", "ITA", "ESP"],
+  "changes": [
+    {
+      "slot": 1,
+      "name": "bulbasaur",
+      "action": "remove_duplicate_alias_images",
+      "removed": ["front.png", "back.png"],
+      "kept": ["front_normal.png", "back_normal.png"]
+    },
+    {
+      "slot": 2,
+      "name": "ivysaur",
+      "action": "add_canonical_deduplicated_sprite_set",
+      "images": ["front_normal.png", "front_shiny.png", "back_normal.png", "back_shiny.png", "icon.png"],
+      "source_bundle": "source.json",
+      "all_verified_release_assets_identical": true
+    }
+  ]
+}
