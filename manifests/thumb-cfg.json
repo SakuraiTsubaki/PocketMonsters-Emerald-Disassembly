@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"emerald-jp-rev0-thumb-cfg","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c","start_address":"0x080003a4"}],"outputs":[{"path":"analysis/emerald-jp-rev0-thumb-cfg.json","sha256":"741f3d792e4d12f203281845873809c5892783978be81599a7bd01f68a18ad87"},{"path":"src/thumb_entry_reachable.s","sha256":"ae7fc30e6a8f5f76257cd3bb5381c53dc5bd88c97492d7d47a630f4b34149649"}]}
+

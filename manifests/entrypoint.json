@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"emerald-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c","offset":0,"length":4}],"outputs":[{"path":"analysis/emerald-jp-rev0-entrypoint.json","sha256":"564f0037b0daa49f6a39260adf41c8eaa5d18dfb5245a34c055e1f9a059e6cd2"},{"path":"src/rom_entry.s","sha256":"01628f1418cdec5232cdc7b8f761a03bd6dbae2ccb58d4bf5f44333912498966"}]}
+
