@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "asset_id": "emerald-jp-rev0-title-rayquaza",
+  "release_id": "emerald-jp-rev0",
+  "release_status": "candidate",
+  "source": {
+    "rom_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+    "offset": "0x519AB4",
+    "compression": "GBA BIOS LZ77",
+    "compressed_length": 2018,
+    "compressed_sha256": "f030f1b55375d76c9ec542835b10f1e8ad337ed06d5b3e0733d87747746637f3"
+  },
+  "decoded": {
+    "format": "GBA 4bpp tiles",
+    "length": 8192,
+    "tile_count": 256,
+    "sha256": "2d5bd462bb787ec8b28022fe3c2e98b28db7ed3bea69a59e1e46a3bd8f035667"
+  },
+  "reference": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "graphics/title_screen/rayquaza.png",
+    "git_blob_sha1": "f52f559e25cb54f7f997abf913d21a684ec57f53",
+    "png_sha256": "9da2012474f58b7d18866f10d8b0defa6af3e47aa317628cc60a781539fdc45b",
+    "relationship": "indexed PNG converted in 8x8 tile order exactly matches decoded ROM bytes"
+  },
+  "outputs": [
+    {"path": "graphics/title/rayquaza.png", "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"},
+    {"path": "graphics/title/rayquaza-and-clouds.pal", "sha256": "f5476579102419d58c139bf7b5ab5c8e73d8e2a9755f0f91bf54494947308de4"},
+    {"path": "analysis/emerald-jp-rev0-title-rayquaza.json"}
+  ],
+  "raw_rom_bytes_included": false
+}
