@@ -13,905 +13,657 @@
     {
       "address": 134218660,
       "source_offset": 932,
-      "halfword": 46576,
-      "bytes_le": "f0b5",
       "kind": "other"
     },
     {
       "address": 134218662,
       "source_offset": 934,
-      "halfword": 17991,
-      "bytes_le": "4746",
       "kind": "other"
     },
     {
       "address": 134218664,
       "source_offset": 936,
-      "halfword": 46208,
-      "bytes_le": "80b4",
       "kind": "other"
     },
     {
       "address": 134218666,
       "source_offset": 938,
-      "halfword": 8447,
-      "bytes_le": "ff20",
       "kind": "other"
     },
     {
       "address": 134218668,
       "source_offset": 940,
-      "halfword": 62101,
-      "bytes_le": "95f2",
       "kind": "call",
       "target": 136927712
     },
     {
       "address": 134218670,
       "source_offset": 942,
-      "halfword": 64280,
-      "bytes_le": "18fb",
       "kind": "bl-suffix"
     },
     {
       "address": 134218672,
       "source_offset": 944,
-      "halfword": 8608,
-      "bytes_le": "a021",
       "kind": "other"
     },
     {
       "address": 134218674,
       "source_offset": 946,
-      "halfword": 1225,
-      "bytes_le": "c904",
       "kind": "other"
     },
     {
       "address": 134218676,
       "source_offset": 948,
-      "halfword": 18988,
-      "bytes_le": "2c4a",
       "kind": "other"
     },
     {
       "address": 134218678,
       "source_offset": 950,
-      "halfword": 7184,
-      "bytes_le": "101c",
       "kind": "other"
     },
     {
       "address": 134218680,
       "source_offset": 952,
-      "halfword": 32776,
-      "bytes_le": "0880",
       "kind": "other"
     },
     {
       "address": 134218682,
       "source_offset": 954,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134221940
     },
     {
       "address": 134218684,
       "source_offset": 956,
-      "halfword": 65115,
-      "bytes_le": "5bfe",
       "kind": "bl-suffix"
     },
     {
       "address": 134218686,
       "source_offset": 958,
-      "halfword": 18731,
-      "bytes_le": "2b49",
       "kind": "other"
     },
     {
       "address": 134218688,
       "source_offset": 960,
-      "halfword": 19243,
-      "bytes_le": "2b4b",
       "kind": "other"
     },
     {
       "address": 134218690,
       "source_offset": 962,
-      "halfword": 7192,
-      "bytes_le": "181c",
       "kind": "other"
     },
     {
       "address": 134218692,
       "source_offset": 964,
-      "halfword": 32776,
-      "bytes_le": "0880",
       "kind": "other"
     },
     {
       "address": 134218694,
       "source_offset": 966,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134219196
     },
     {
       "address": 134218696,
       "source_offset": 968,
-      "halfword": 63737,
-      "bytes_le": "f9f8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218698,
       "source_offset": 970,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134219396
     },
     {
       "address": 134218700,
       "source_offset": 972,
-      "halfword": 63835,
-      "bytes_le": "5bf9",
       "kind": "bl-suffix"
     },
     {
       "address": 134218702,
       "source_offset": 974,
-      "halfword": 62094,
-      "bytes_le": "8ef2",
       "kind": "call",
       "target": 136898040
     },
     {
       "address": 134218704,
       "source_offset": 976,
-      "halfword": 63763,
-      "bytes_le": "13f9",
       "kind": "bl-suffix"
     },
     {
       "address": 134218706,
       "source_offset": 978,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134219156
     },
     {
       "address": 134218708,
       "source_offset": 980,
-      "halfword": 63711,
-      "bytes_le": "dff8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218710,
       "source_offset": 982,
-      "halfword": 61453,
-      "bytes_le": "0df0",
       "kind": "call",
       "target": 134275476
     },
     {
       "address": 134218712,
       "source_offset": 984,
-      "halfword": 65245,
-      "bytes_le": "ddfe",
       "kind": "bl-suffix"
     },
     {
       "address": 134218714,
       "source_offset": 986,
-      "halfword": 61486,
-      "bytes_le": "2ef0",
       "kind": "call",
       "target": 134409856
     },
     {
       "address": 134218716,
       "source_offset": 988,
-      "halfword": 64849,
-      "bytes_le": "51fd",
       "kind": "bl-suffix"
     },
     {
       "address": 134218718,
       "source_offset": 990,
-      "halfword": 61558,
-      "bytes_le": "76f0",
       "kind": "call",
       "target": 134702448
     },
     {
       "address": 134218720,
       "source_offset": 992,
-      "halfword": 63687,
-      "bytes_le": "c7f8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218722,
       "source_offset": 994,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134218968
     },
     {
       "address": 134218724,
       "source_offset": 996,
-      "halfword": 63609,
-      "bytes_le": "79f8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218726,
       "source_offset": 998,
-      "halfword": 61602,
-      "bytes_le": "a2f0",
       "kind": "call",
       "target": 134882972
     },
     {
       "address": 134218728,
       "source_offset": 1000,
-      "halfword": 63833,
-      "bytes_le": "59f9",
       "kind": "bl-suffix"
     },
     {
       "address": 134218730,
       "source_offset": 1002,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134220872
     },
     {
       "address": 134218732,
       "source_offset": 1004,
-      "halfword": 64557,
-      "bytes_le": "2dfc",
       "kind": "bl-suffix"
     },
     {
       "address": 134218734,
       "source_offset": 1006,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134222600
     },
     {
       "address": 134218736,
       "source_offset": 1008,
-      "halfword": 65419,
-      "bytes_le": "8bff",
       "kind": "bl-suffix"
     },
     {
       "address": 134218738,
       "source_offset": 1010,
-      "halfword": 61445,
-      "bytes_le": "05f0",
       "kind": "call",
       "target": 134242724
     },
     {
       "address": 134218740,
       "source_offset": 1012,
-      "halfword": 65239,
-      "bytes_le": "d7fe",
       "kind": "bl-suffix"
     },
     {
       "address": 134218742,
       "source_offset": 1014,
-      "halfword": 18463,
-      "bytes_le": "1f48",
       "kind": "other"
     },
     {
       "address": 134218744,
       "source_offset": 1016,
-      "halfword": 8672,
-      "bytes_le": "e021",
       "kind": "other"
     },
     {
       "address": 134218746,
       "source_offset": 1018,
-      "halfword": 585,
-      "bytes_le": "4902",
       "kind": "other"
     },
     {
       "address": 134218748,
       "source_offset": 1020,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134220716
     },
     {
       "address": 134218750,
       "source_offset": 1022,
-      "halfword": 64470,
-      "bytes_le": "d6fb",
       "kind": "bl-suffix"
     },
     {
       "address": 134218752,
       "source_offset": 1024,
-      "halfword": 18461,
-      "bytes_le": "1d48",
       "kind": "other"
     },
     {
       "address": 134218754,
       "source_offset": 1026,
-      "halfword": 9216,
-      "bytes_le": "0024",
       "kind": "other"
     },
     {
       "address": 134218756,
       "source_offset": 1028,
-      "halfword": 28676,
-      "bytes_le": "0470",
       "kind": "other"
     },
     {
       "address": 134218758,
       "source_offset": 1030,
-      "halfword": 18461,
-      "bytes_le": "1d48",
       "kind": "other"
     },
     {
       "address": 134218760,
       "source_offset": 1032,
-      "halfword": 26624,
-      "bytes_le": "0068",
       "kind": "other"
     },
     {
       "address": 134218762,
       "source_offset": 1034,
-      "halfword": 10241,
-      "bytes_le": "0128",
       "kind": "other"
     },
     {
       "address": 134218764,
       "source_offset": 1036,
-      "halfword": 53250,
-      "bytes_le": "02d0",
       "kind": "conditional-branch",
       "target": 134218772
     },
     {
       "address": 134218766,
       "source_offset": 1038,
-      "halfword": 8192,
-      "bytes_le": "0020",
       "kind": "other"
     },
     {
       "address": 134218768,
       "source_offset": 1040,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134219072
     },
     {
       "address": 134218770,
       "source_offset": 1042,
-      "halfword": 63638,
-      "bytes_le": "96f8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218772,
       "source_offset": 1044,
-      "halfword": 18970,
-      "bytes_le": "1a4a",
       "kind": "other"
     },
     {
       "address": 134218774,
       "source_offset": 1046,
-      "halfword": 28692,
-      "bytes_le": "1470",
       "kind": "other"
     },
     {
       "address": 134218776,
       "source_offset": 1048,
-      "halfword": 18714,
-      "bytes_le": "1a49",
       "kind": "other"
     },
     {
       "address": 134218778,
       "source_offset": 1050,
-      "halfword": 9212,
-      "bytes_le": "fc23",
       "kind": "other"
     },
     {
       "address": 134218780,
       "source_offset": 1052,
-      "halfword": 283,
-      "bytes_le": "1b01",
       "kind": "other"
     },
     {
       "address": 134218782,
       "source_offset": 1054,
-      "halfword": 7192,
-      "bytes_le": "181c",
       "kind": "other"
     },
     {
       "address": 134218784,
       "source_offset": 1056,
-      "halfword": 32776,
-      "bytes_le": "0880",
       "kind": "other"
     },
     {
       "address": 134218786,
       "source_offset": 1058,
-      "halfword": 20249,
-      "bytes_le": "194f",
       "kind": "other"
     },
     {
       "address": 134218788,
       "source_offset": 1060,
-      "halfword": 8192,
-      "bytes_le": "0020",
       "kind": "other"
     },
     {
       "address": 134218790,
       "source_offset": 1062,
-      "halfword": 18048,
-      "bytes_le": "8046",
       "kind": "other"
     },
     {
       "address": 134218792,
       "source_offset": 1064,
-      "halfword": 7190,
-      "bytes_le": "161c",
       "kind": "other"
     },
     {
       "address": 134218794,
       "source_offset": 1066,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134219236
     },
     {
       "address": 134218796,
       "source_offset": 1068,
-      "halfword": 63707,
-      "bytes_le": "dbf8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218798,
       "source_offset": 1070,
-      "halfword": 18450,
-      "bytes_le": "1248",
       "kind": "other"
     },
     {
       "address": 134218800,
       "source_offset": 1072,
-      "halfword": 30720,
-      "bytes_le": "0078",
       "kind": "other"
     },
     {
       "address": 134218802,
       "source_offset": 1074,
-      "halfword": 10240,
-      "bytes_le": "0028",
       "kind": "other"
     },
     {
       "address": 134218804,
       "source_offset": 1076,
-      "halfword": 53518,
-      "bytes_le": "0ed1",
       "kind": "conditional-branch",
       "target": 134218836
     },
     {
       "address": 134218806,
       "source_offset": 1078,
-      "halfword": 36153,
-      "bytes_le": "398d",
       "kind": "other"
     },
     {
       "address": 134218808,
       "source_offset": 1080,
-      "halfword": 8193,
-      "bytes_le": "0120",
       "kind": "other"
     },
     {
       "address": 134218810,
       "source_offset": 1082,
-      "halfword": 16392,
-      "bytes_le": "0840",
       "kind": "other"
     },
     {
       "address": 134218812,
       "source_offset": 1084,
-      "halfword": 10240,
-      "bytes_le": "0028",
       "kind": "other"
     },
     {
       "address": 134218814,
       "source_offset": 1086,
-      "halfword": 53257,
-      "bytes_le": "09d0",
       "kind": "conditional-branch",
       "target": 134218836
     },
     {
       "address": 134218816,
       "source_offset": 1088,
-      "halfword": 8206,
-      "bytes_le": "0e20",
       "kind": "other"
     },
     {
       "address": 134218818,
       "source_offset": 1090,
-      "halfword": 16392,
-      "bytes_le": "0840",
       "kind": "other"
     },
     {
       "address": 134218820,
       "source_offset": 1092,
-      "halfword": 10254,
-      "bytes_le": "0e28",
       "kind": "other"
     },
     {
       "address": 134218822,
       "source_offset": 1094,
-      "halfword": 53509,
-      "bytes_le": "05d1",
       "kind": "conditional-branch",
       "target": 134218836
     },
     {
       "address": 134218824,
       "source_offset": 1096,
-      "halfword": 62098,
-      "bytes_le": "92f2",
       "kind": "call",
       "target": 136915020
     },
     {
       "address": 134218826,
       "source_offset": 1098,
-      "halfword": 64000,
-      "bytes_le": "00fa",
       "kind": "bl-suffix"
     },
     {
       "address": 134218828,
       "source_offset": 1100,
-      "halfword": 62098,
-      "bytes_le": "92f2",
       "kind": "call",
       "target": 136914800
     },
     {
       "address": 134218830,
       "source_offset": 1102,
-      "halfword": 63888,
-      "bytes_le": "90f9",
       "kind": "bl-suffix"
     },
     {
       "address": 134218832,
       "source_offset": 1104,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134220020
     },
     {
       "address": 134218834,
       "source_offset": 1106,
-      "halfword": 64080,
-      "bytes_le": "50fa",
       "kind": "bl-suffix"
     },
     {
       "address": 134218836,
       "source_offset": 1108,
-      "halfword": 61574,
-      "bytes_le": "86f0",
       "kind": "call",
       "target": 134770584
     },
     {
       "address": 134218838,
       "source_offset": 1110,
-      "halfword": 64928,
-      "bytes_le": "a0fd",
       "kind": "bl-suffix"
     },
     {
       "address": 134218840,
       "source_offset": 1112,
-      "halfword": 10241,
-      "bytes_le": "0128",
       "kind": "other"
     },
     {
       "address": 134218842,
       "source_offset": 1114,
-      "halfword": 53527,
-      "bytes_le": "17d1",
       "kind": "conditional-branch",
       "target": 134218892
     },
     {
       "address": 134218844,
       "source_offset": 1116,
-      "halfword": 28720,
-      "bytes_le": "3070",
       "kind": "other"
     },
     {
       "address": 134218846,
       "source_offset": 1118,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134218948
     },
     {
       "address": 134218848,
       "source_offset": 1120,
-      "halfword": 63537,
-      "bytes_le": "31f8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218850,
       "source_offset": 1122,
-      "halfword": 8192,
-      "bytes_le": "0020",
       "kind": "other"
     },
     {
       "address": 134218852,
       "source_offset": 1124,
-      "halfword": 28720,
-      "bytes_le": "3070",
       "kind": "other"
     },
     {
       "address": 134218854,
       "source_offset": 1126,
-      "halfword": 57380,
-      "bytes_le": "24e0",
       "kind": "branch",
       "target": 134218930
     },
     {
       "address": 134218892,
       "source_offset": 1164,
-      "halfword": 19724,
-      "bytes_le": "0c4d",
       "kind": "other"
     },
     {
       "address": 134218894,
       "source_offset": 1166,
-      "halfword": 8192,
-      "bytes_le": "0020",
       "kind": "other"
     },
     {
       "address": 134218896,
       "source_offset": 1168,
-      "halfword": 28712,
-      "bytes_le": "2870",
       "kind": "other"
     },
     {
       "address": 134218898,
       "source_offset": 1170,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134218948
     },
     {
       "address": 134218900,
       "source_offset": 1172,
-      "halfword": 63511,
-      "bytes_le": "17f8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218902,
       "source_offset": 1174,
-      "halfword": 61574,
-      "bytes_le": "86f0",
       "kind": "call",
       "target": 134770476
     },
     {
       "address": 134218904,
       "source_offset": 1176,
-      "halfword": 64841,
-      "bytes_le": "49fd",
       "kind": "bl-suffix"
     },
     {
       "address": 134218906,
       "source_offset": 1178,
-      "halfword": 7172,
-      "bytes_le": "041c",
       "kind": "other"
     },
     {
       "address": 134218908,
       "source_offset": 1180,
-      "halfword": 11265,
-      "bytes_le": "012c",
       "kind": "other"
     },
     {
       "address": 134218910,
       "source_offset": 1182,
-      "halfword": 53512,
-      "bytes_le": "08d1",
       "kind": "conditional-branch",
       "target": 134218930
     },
     {
       "address": 134218912,
       "source_offset": 1184,
-      "halfword": 8192,
-      "bytes_le": "0020",
       "kind": "other"
     },
     {
       "address": 134218914,
       "source_offset": 1186,
-      "halfword": 34296,
-      "bytes_le": "f885",
       "kind": "other"
     },
     {
       "address": 134218916,
       "source_offset": 1188,
-      "halfword": 61446,
-      "bytes_le": "06f0",
       "kind": "call",
       "target": 134246096
     },
     {
       "address": 134218918,
       "source_offset": 1190,
-      "halfword": 64788,
-      "bytes_le": "14fd",
       "kind": "bl-suffix"
     },
     {
       "address": 134218920,
       "source_offset": 1192,
-      "halfword": 28716,
-      "bytes_le": "2c70",
       "kind": "other"
     },
     {
       "address": 134218922,
       "source_offset": 1194,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134218948
     },
     {
       "address": 134218924,
       "source_offset": 1196,
-      "halfword": 63499,
-      "bytes_le": "0bf8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218926,
       "source_offset": 1198,
-      "halfword": 17986,
-      "bytes_le": "4246",
       "kind": "other"
     },
     {
       "address": 134218928,
       "source_offset": 1200,
-      "halfword": 28714,
-      "bytes_le": "2a70",
       "kind": "other"
     },
     {
       "address": 134218930,
       "source_offset": 1202,
-      "halfword": 61571,
-      "bytes_le": "83f0",
       "kind": "call",
       "target": 134757316
     },
     {
       "address": 134218932,
       "source_offset": 1204,
-      "halfword": 64391,
-      "bytes_le": "87fb",
       "kind": "bl-suffix"
     },
     {
       "address": 134218934,
       "source_offset": 1206,
-      "halfword": 61602,
-      "bytes_le": "a2f0",
       "kind": "call",
       "target": 134882992
     },
     {
       "address": 134218936,
       "source_offset": 1208,
-      "halfword": 63739,
-      "bytes_le": "fbf8",
       "kind": "bl-suffix"
     },
     {
       "address": 134218938,
       "source_offset": 1210,
-      "halfword": 61440,
-      "bytes_le": "00f0",
       "kind": "call",
       "target": 134219948
     },
     {
       "address": 134218940,
       "source_offset": 1212,
-      "halfword": 63991,
-      "bytes_le": "f7f9",
       "kind": "bl-suffix"
     },
     {
       "address": 134218942,
       "source_offset": 1214,
-      "halfword": 59316,
-      "bytes_le": "b4e7",
       "kind": "branch",
       "target": 134218794
     }
