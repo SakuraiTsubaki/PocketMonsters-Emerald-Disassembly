@@ -16,6 +16,15 @@
     "tile_count": 256,
     "sha256": "2d5bd462bb787ec8b28022fe3c2e98b28db7ed3bea69a59e1e46a3bd8f035667"
   },
+  "discovery": {
+    "tool": "SakuraiTsubaki/Disassembly tools/scan_gba_lz77.py",
+    "scan_start": "0x0000000",
+    "scan_end_exclusive": "0x1000000",
+    "decoded_length_filter": 8192,
+    "candidate_count": 70,
+    "unique_decoded_hashes": 69,
+    "target_occurrences": 1
+  },
   "reference": {
     "repository": "pret/pokeemerald",
     "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
@@ -27,7 +36,8 @@
   "outputs": [
     {"path": "graphics/title/rayquaza.png", "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"},
     {"path": "graphics/title/rayquaza-and-clouds.pal", "sha256": "f5476579102419d58c139bf7b5ab5c8e73d8e2a9755f0f91bf54494947308de4"},
-    {"path": "analysis/emerald-jp-rev0-title-rayquaza.json"}
+    {"path": "analysis/emerald-jp-rev0-title-rayquaza.json"},
+    {"path": "analysis/emerald-jp-rev0-lz77-8192-scan.json", "sha256": "f65b8caee5f88edae2ba89d8fd79cacd0ed108f56b4782fd87892cb66c5251b6"}
   ],
   "raw_rom_bytes_included": false
 }
