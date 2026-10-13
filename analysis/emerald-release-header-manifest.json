@@ -1,1 +1,45 @@
-{"$schema":"https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/analysis-manifest.schema.json","schema_version":1,"id":"emerald-release-header-report","targets":["SakuraiTsubaki/PocketMonsters-Emerald-Disassembly"],"generator":{"name":"SakuraiTsubaki/Disassembly tools/inspect_gba_rom.py","version":"1.0.0"},"command":"python tools/inspect_gba_rom.py path/to/legally-obtained-input --require-valid","inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"},{"size":16777216,"sha256":"a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af"}],"outputs":[{"path":"analysis/emerald-release-header-report.json","sha256":"3773d8a06fad9138509a21298260d842cd106941f123e45fcada219599cbffbd"}]}
+{
+  "$schema": "https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/analysis-manifest.schema.json",
+  "schema_version": 1,
+  "id": "emerald-release-header-report",
+  "targets": [
+    "SakuraiTsubaki/PocketMonsters-Emerald-Disassembly"
+  ],
+  "generator": {
+    "name": "SakuraiTsubaki/Disassembly tools/inspect_gba_rom.py",
+    "version": "1.0.0"
+  },
+  "command": "python tools/inspect_gba_rom.py path/to/legally-obtained-input --require-valid",
+  "inputs": [
+    {
+      "size": 16777216,
+      "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+    },
+    {
+      "size": 16777216,
+      "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af"
+    },
+    {
+      "size": 16777216,
+      "sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4"
+    },
+    {
+      "size": 16777216,
+      "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4"
+    },
+    {
+      "size": 16777216,
+      "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad"
+    },
+    {
+      "size": 16777216,
+      "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/emerald-release-header-report.json",
+      "sha256": "60cc0b24ab6b7ce0d9bd1211c41308fb3ceebff29c1b963e9ecac9fc62f59dd4"
+    }
+  ]
+}
