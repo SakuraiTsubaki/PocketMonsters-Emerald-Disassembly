@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "source_offset": 5574024,
+    "source_pointer": 139791752,
+    "decompressed_length": 8192
+  },
+  "pointer_locations": [
+    698744
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 698622,
+      "literal_offset": 698744,
+      "destination_register": 0,
+      "destination_literal_offset": 698748,
+      "destination": 100696064,
+      "call_offset": 698626,
+      "call_target": 137350604,
+      "loader_sequence_length": 8,
+      "loader_sequence_sha256": "36d9ebb49198ca7fdf907090bf6bcfc529f946aebb46254c8c3bca9fa4a7ce0e"
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4",
+  "asset_report": "analysis/emerald-de-rev0-title-rayquaza.json"
+}

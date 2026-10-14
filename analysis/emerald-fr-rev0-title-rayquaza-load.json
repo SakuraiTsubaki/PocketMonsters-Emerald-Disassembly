@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "source_offset": 5521220,
+    "source_pointer": 139738948,
+    "decompressed_length": 8192
+  },
+  "pointer_locations": [
+    698736
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 698614,
+      "literal_offset": 698736,
+      "destination_register": 0,
+      "destination_literal_offset": 698740,
+      "destination": 100696064,
+      "call_offset": 698618,
+      "call_target": 137298016,
+      "loader_sequence_length": 8,
+      "loader_sequence_sha256": "8eeec4b2b8a129494cdbc8e09b9b71af07d76bd861355b2d4f38f5ea00cfb35f"
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+  "asset_report": "analysis/emerald-fr-rev0-title-rayquaza.json"
+}

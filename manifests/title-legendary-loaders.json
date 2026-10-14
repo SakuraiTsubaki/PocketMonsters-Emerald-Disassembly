@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "asset": "rayquaza",
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/trace_gba_lz77_load.py",
+    "tool_sha256": "a6c8b594dbb34ca67d6fec4395e0df1f4e846a2a41fa532c29a0f7f835df7fcb"
+  },
+  "inputs": [
+    {
+      "path": "analysis/emerald-de-rev0-title-rayquaza.json",
+      "sha256": "addc68c2c16b7b79303455fa54e4a570a525d278de20e3fe451ee97b74f2979d"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-title-rayquaza.json",
+      "sha256": "369a9fdeb98b2e4d7a7be3e0cd442fafadc347284b0e2e40523c76e945a9ab2e"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-title-rayquaza.json",
+      "sha256": "ae2ce7e6263a933a23df809780986d46cf4602c041f612afb02a376f74a9dc6f"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-title-rayquaza.json",
+      "sha256": "46cf7bcc919faf2217c4d0d57103ec2978a24810f7b98aabdf019723ff62e7c5"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-title-rayquaza.json",
+      "sha256": "7818fa564889a7e4e1419929f0dfd33e19e2e878ad587445343942e39c176a16"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-title-rayquaza.json",
+      "sha256": "e1d0a7b24a8be0e1e9ac07314930becab93a52fd86f06f2e00f6b8199c485469"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "src/title_legendary_loader.asm",
+      "sha256": "7dd68dab65ca49266dffb9ef139421616aebd58f823558705601da914537f6fb"
+    },
+    {
+      "path": "research/title-legendary-loader.md",
+      "sha256": "018ee54d2716bb4859d5b63579a07d536972ed0a959875deecc5e8df48d688b6"
+    },
+    {
+      "path": "tests/test_title_legendary_loader.py",
+      "sha256": "610ce479cb36e1e56a3d633f71ae8136b188ca416ac43a04d9f3bb3601fc1d2b"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-title-rayquaza-load.json",
+      "sha256": "80110a6a2828cbcb6692f4a2471f87d156bc816d67ffd2bcfb562d38e0f0d217"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-title-rayquaza-load.json",
+      "sha256": "c1368c2fb2ce47cea4719701799e28df6c9b3bccdd7a7ac6138087603a94b304"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-title-rayquaza-load.json",
+      "sha256": "b3745c231d921b846cb6de0e0329954172ad51e54da799364ed4b91c9dc76fc2"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-title-rayquaza-load.json",
+      "sha256": "5eebab7c84526037b2262339c971d3c77c0b2dece9daa42d7fa5abdb98b18ebc"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-title-rayquaza-load.json",
+      "sha256": "df18dcca2c50859698f52ce978184954da1c0f592b12950783eb3e8762ab524c"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-title-rayquaza-load.json",
+      "sha256": "3ff8f6f3b443dbbcb9c29ab2bc726f5f0bbb362a4469c29899d9ed016a87ec5b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
