@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "functions": [
+    "SeedRng2",
+    "Random2"
+  ],
+  "releases": [
+    "emerald-jp-rev0",
+    "emerald-en-rev0",
+    "emerald-de-rev0",
+    "emerald-fr-rev0",
+    "emerald-it-rev0",
+    "emerald-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_rng2.py",
+    "tool_sha256": "882402d7fdedc3eb1bbfc9f1b795c5cff814c2e8bf9c9b979b2db1a0c1fc11ce"
+  },
+  "outputs": [
+    {
+      "path": "src/random2.asm",
+      "sha256": "46a5d97a9b9cef885eaafd082e0bdbccc19474d29bea47aeacc43652195d1ac1"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-rng2.json",
+      "sha256": "9cf823c6beb3bd1f0a39c95496530804383196f1523eebac1e8ff075c206a814"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-rng2.json",
+      "sha256": "0a58f2e39e64acf68831ec51de24a889d7317a5dbc10e55a32356811a345d562"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-rng2.json",
+      "sha256": "308e6d6723c492a2019ba5c61745b0a7621773c2ae9bb1b31884fb4f25a06499"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-rng2.json",
+      "sha256": "07b534c48606efb6ab94fac0395a21b53328a4298bdbd4fab4675095363dc7cd"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-rng2.json",
+      "sha256": "49890754c47c594daa6ef1093ba505fbcef2898eba5f56c88471a41bb8c2212b"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-rng2.json",
+      "sha256": "1e5aeb0c447b46578cf66b39fdfca75874a5422e38ff93a9c53f3fa7de8ae051"
+    },
+    {
+      "path": "research/rng2-reconstruction.md",
+      "sha256": "d2d12a4404831f30e2b968193aaaf7e5c05abaf15c80c61af4088d7c43b61721"
+    },
+    {
+      "path": "tests/test_rng2_reconstruction.py",
+      "sha256": "e7de39b7a45d9c97e622919258124457bddd27530cdd291391fb8ce0cf22a03d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

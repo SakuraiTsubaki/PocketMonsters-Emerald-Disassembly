@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "emerald-es-rev0",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e"
+  },
+  "globals": {
+    "gRng2Value": "0x03005D84"
+  },
+  "functions": {
+    "SeedRng2": {
+      "address": "0x0806F60C",
+      "rom_offset": 456204,
+      "range_end_exclusive": "0x0806F616",
+      "length": 10,
+      "code_sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb"
+    },
+    "Random2": {
+      "address": "0x0806F61C",
+      "rom_offset": 456220,
+      "range_end_exclusive": "0x0806F62E",
+      "length": 18,
+      "code_sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb"
+    }
+  },
+  "algorithm": {
+    "state_bits": 32,
+    "multiplier": 1103515245,
+    "increment": 24691,
+    "return_bits": "state[31:16]",
+    "independent_from_primary": true
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/random.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
