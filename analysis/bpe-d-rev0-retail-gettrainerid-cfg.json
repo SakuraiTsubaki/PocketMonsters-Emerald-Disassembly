@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 541432,
+  "start_address": 134759160,
+  "scan_limit_address": 134759184,
+  "instruction_halfwords": 12,
+  "canonical_instruction_bytes_sha256": "007d0bda88f16c7dd47124c261ed6846f26451d6862ac00c3cdecc3cc09d07b1",
+  "range_start": 134759160,
+  "range_end": 134759184,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134759160,
+      "source_offset": 541432,
+      "kind": "other"
+    },
+    {
+      "address": 134759162,
+      "source_offset": 541434,
+      "kind": "other"
+    },
+    {
+      "address": 134759164,
+      "source_offset": 541436,
+      "kind": "other"
+    },
+    {
+      "address": 134759166,
+      "source_offset": 541438,
+      "kind": "other"
+    },
+    {
+      "address": 134759168,
+      "source_offset": 541440,
+      "kind": "other"
+    },
+    {
+      "address": 134759170,
+      "source_offset": 541442,
+      "kind": "other"
+    },
+    {
+      "address": 134759172,
+      "source_offset": 541444,
+      "kind": "other"
+    },
+    {
+      "address": 134759174,
+      "source_offset": 541446,
+      "kind": "other"
+    },
+    {
+      "address": 134759176,
+      "source_offset": 541448,
+      "kind": "other"
+    },
+    {
+      "address": 134759178,
+      "source_offset": 541450,
+      "kind": "other"
+    },
+    {
+      "address": 134759180,
+      "source_offset": 541452,
+      "kind": "other"
+    },
+    {
+      "address": 134759182,
+      "source_offset": 541454,
+      "kind": "return"
+    }
+  ],
+  "edges": [],
+  "calls": [],
+  "returns": [
+    134759182
+  ],
+  "source_size": 16777216,
+  "source_sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4"
+}

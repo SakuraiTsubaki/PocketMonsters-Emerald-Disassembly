@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "axis": "Disassembly",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_trainer_id_helpers.py",
+    "tool_sha256": "3946d9310df307e516f899fea1854eedadaf85aaab839c5e5fa74edcedf40e0c"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id_helpers.s",
+      "sha256": "e3fcaf9857526a6aac4976e8a405e9abc83b6c072905ea3788f32fd6b0607259"
+    },
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "d3013e980cd6fe0071818a4dfd62fa84d7e7cb6f2ec34e938a966f5b951af5eb"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-settrainerid-cfg.json",
+      "sha256": "275f4f89ebdb7b09328a2cc94039877a8ef72940cc7d87ef6064df544b3bbea9"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-gettrainerid-cfg.json",
+      "sha256": "b33aa276470d1fdf10c144a85134b396a4d197770f1ee385e4422705505fb551"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "356e8bb577c37cbab6e1da6acc04bb1f1156361dcb47728ce2816322d727f734"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "a3cbb902d3689061ffb0351fbb4ce1bcbb183a3b0e6be574f032aa9dac08bf35"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-settrainerid-cfg.json",
+      "sha256": "3eac2525b23bb20542cb109076a1d206e6e545be54cbe4be6811c3d43b291ff1"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-gettrainerid-cfg.json",
+      "sha256": "523caf12f629d80726379fc9b4752d635e7b19c6c10dc4df3dea9da3c65be1be"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "717ae83621c21606c0e3a385a52f39f8ac208c08829ca48ec4e8d4219065bbfc"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "7ebf92066c4dcd9528ce47b922417c732d1b1afbbd26f8a1d708693cd4493df7"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-settrainerid-cfg.json",
+      "sha256": "7fbc33254080ac955aff3efad9f8adc29947b48bd15d1b6f9b010df100addc2b"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-gettrainerid-cfg.json",
+      "sha256": "406ab1c8f72b8a2b014107348952ff2ef0d82f3e4b9d4cde2f8a247ca949c892"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "6e36144d918261faf3b81265cd538692b530f2818deb7ca36e4ba0463ceb8227"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "7ce861a5f01ba7920a1d2ef63b94b751e0dfa6812418c50bbc4211732d03ddbd"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-settrainerid-cfg.json",
+      "sha256": "d8efe6e0f6b2f9dda8ed43a6c995ba87e135bf16ea12903be997d168d4faa1e6"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-gettrainerid-cfg.json",
+      "sha256": "a4f4c526786d7d50e27d4e9cebe18f5db7cf8b73609a3c73bbbd25d1c5c219c6"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "86302cb66818a6ded002bfa7d5e6770c9fb32e3c43cd48190cc1c25de4cae66d"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "c5669cda0c441b8fa57e6c3193dcabc33fc5565df6334efb84a407d98d2d6636"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-settrainerid-cfg.json",
+      "sha256": "67be969b2a858903faa612954dc07046923fb1322088d27f0fdc058ebbd39399"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-gettrainerid-cfg.json",
+      "sha256": "cc394304d25ab99781fe12211b1d0958f412af785a48f33f7a45035fb2c9a62a"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "a5976eb9567525ccc1376746c4c47e92fba52807e036e18649d6ffcdfe0154c2"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "9d495c8f13e86182d38e0aa223d8ad43edf373e64ea88e652d016f3ec08bffc4"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-settrainerid-cfg.json",
+      "sha256": "2a6bee5c709996a689c3f60c754f04826b9c09b35b5ce77e6dee4c6a32c524fe"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-gettrainerid-cfg.json",
+      "sha256": "bc574cb4178458eb5c8b4e01e8eded37355cc2e291221ca816258c3514c84ad1"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "a336fed22789ca5eb1529fc93c7df24f49733234f9c386000cc4a1272c1019f9"
+    },
+    {
+      "path": "analysis/trainer-id-disassembly-summary.json",
+      "sha256": "41caf2d4277058c852ec4651abadb5d3dcac6248c8c4be6b9639fb5a9a4ec24f"
+    },
+    {
+      "path": "research/trainer-id-disassembly.md",
+      "sha256": "1e5d09ee4e58c4a61bcf57a224539b632a31221afc66b822648bbb8242f063c9"
+    },
+    {
+      "path": "tests/test_trainer_id_disassembly.py",
+      "sha256": "118ceecf969f636b86826034ea9bed9d9b29278f17c95ab37ca6f84d5713814c"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

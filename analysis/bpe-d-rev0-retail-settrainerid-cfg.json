@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 541416,
+  "start_address": 134759144,
+  "scan_limit_address": 134759160,
+  "instruction_halfwords": 8,
+  "canonical_instruction_bytes_sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+  "range_start": 134759144,
+  "range_end": 134759160,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134759144,
+      "source_offset": 541416,
+      "kind": "other"
+    },
+    {
+      "address": 134759146,
+      "source_offset": 541418,
+      "kind": "other"
+    },
+    {
+      "address": 134759148,
+      "source_offset": 541420,
+      "kind": "other"
+    },
+    {
+      "address": 134759150,
+      "source_offset": 541422,
+      "kind": "other"
+    },
+    {
+      "address": 134759152,
+      "source_offset": 541424,
+      "kind": "other"
+    },
+    {
+      "address": 134759154,
+      "source_offset": 541426,
+      "kind": "other"
+    },
+    {
+      "address": 134759156,
+      "source_offset": 541428,
+      "kind": "other"
+    },
+    {
+      "address": 134759158,
+      "source_offset": 541430,
+      "kind": "return"
+    }
+  ],
+  "edges": [],
+  "calls": [],
+  "returns": [
+    134759158
+  ],
+  "source_size": 16777216,
+  "source_sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4"
+}
