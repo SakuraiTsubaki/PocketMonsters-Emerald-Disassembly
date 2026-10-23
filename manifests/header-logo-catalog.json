@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_header_logo.py",
+    "tool_sha256": "eb2e5b89a999e23e7f58721a2fd62c3ce667cba58406e2ee7e17617750a1aa41",
+    "decoder": "tools/extract_gba_header_logo.py",
+    "decoder_sha256": "5f12c4e7e40aa81ff2d7a71cea2b4b59d0b2a79663bb22b07a3f62d62ee55245"
+  },
+  "outputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "analysis/emerald-jp-header-logo.json",
+      "sha256": "1602651660c8ebdc9883e357b93b3e21e9b0f84d881b9f82995f37d60d5cb7be"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-header-logo.json",
+      "sha256": "d662fb57419eee52fdd6490003f1cb7f20039cbd7b52003ca9ed69f5d94a0e95"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-header-logo.json",
+      "sha256": "d6c7a6b6b1ad1ab58171bf456c9c279301d4d93644c7ee9b3275a309a21a8a2a"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-header-logo.json",
+      "sha256": "bb9aab1fa01651c6f49e9e711340c31286304608470b6bb7bb1a23ff66fdacd1"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-header-logo.json",
+      "sha256": "877b9bec9cbc896f042e461ed02e371a9cac2499e096f19b6746f74925a5e530"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-header-logo.json",
+      "sha256": "3f683a44b78d9d2f8d0c981a1fc18ca6ccd631fdc9f91ca27b1f10177a66143a"
+    },
+    {
+      "path": "analysis/header-logo-catalog-summary.json",
+      "sha256": "8444f6fc842d8aca0974e6c9bffdd04d38d86763faf09e820b2592cc9b8ab563"
+    },
+    {
+      "path": "research/header-logo-catalog.md",
+      "sha256": "230ca8b97246cb248225e0b973f9ef82fe542f6042c7633f3815cc949f29e742"
+    },
+    {
+      "path": "tests/test_header_logo_catalog.py",
+      "sha256": "6b6ee8a624d28bcfbfad7c8835bb2567e3865e781354f62e0df66cfcaf4d311b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
