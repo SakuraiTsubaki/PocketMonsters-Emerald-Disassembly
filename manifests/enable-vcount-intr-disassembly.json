@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "game": "Pokemon Emerald",
+  "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_vcount_intr.py",
+    "tool_sha256": "f32464560dc67deb502eb6c069386626d85ff66d51c944c9a5bb100ab13f9807"
+  },
+  "outputs": [
+    {
+      "path": "src/enable_vcount_intr_at_line150.s",
+      "sha256": "cbf66a7151a4349b19c3049a9b285a3d96a71524b7ee7c48195c3eaccf7ceeb6"
+    },
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "d22c44385c86aed3ed100f266e3140151bcf0f136b12186409b3a3acfa03d2e0"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "a2a3d25e6b5dcd1f77384fe49e9c35ab372dec8cee03643740eadf7f67701031"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "d3bb265ebe18ea1a63104b4dcdb319d72650c116716f91d4ebe8b325b5846833"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "77bbef0ba42cc777704f7f45868b46eb6c3903f6c9f2e12f57ddcc9dd06354c9"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "239e4d49d4ce89f6b5c1f1337c87f9aaeea34207bfab70f14c7909b71de69135"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "c8e37e292a6dffd34c42c3b52d49f2786994110033ace54382603c9afa48b100"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "a7bfa64dd9d8b285a73851c13b45fb671c27a4ee0bd974bd5970e5d9009f348e"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "0f5fbb3144f8872a08190cc2f9056f9a401dac07d5c509f4b0dd7d5c8b9d3236"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "4b2bbf5ea7045356ca8b953332cd463745c93af3a44d76b8c9404f73363a04a8"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "bac64f77fdb506345e7304d4bec50dc54b44471ed874add24e8134592fb73721"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "1630e3d36bc01481625f7df4b4b92a32612dd453fa3906298e28b127bdb78e13"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "8c9fb83fd81cc5e11a9a53438afc74ea624855d64eb316f832696d9a5c33d0b6"
+    },
+    {
+      "path": "analysis/enable-vcount-intr-at-line150-disassembly-summary.json",
+      "sha256": "176096a4665e7660b2e8ce061397f568a9ec0ca5e74efe45ca30819bb494251e"
+    },
+    {
+      "path": "research/enable-vcount-intr-at-line150-disassembly.md",
+      "sha256": "2a23119b029757eb99c9dc98a3d8877b1735fef6b437e13a8e8551a06fe73091"
+    },
+    {
+      "path": "tests/test_enable_vcount_intr_disassembly.py",
+      "sha256": "27e94b8c4a0a67fd35cf744a545da0652df7dbc7b6fc0a3a38a2f27197bf6589"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
