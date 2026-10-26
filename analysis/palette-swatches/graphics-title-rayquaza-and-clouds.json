@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "asset": "JASC palette swatch",
+  "language": "Japanese",
+  "origin_reference": true,
+  "source": {
+    "path": "graphics/title/rayquaza-and-clouds.pal",
+    "sha256": "f5476579102419d58c139bf7b5ab5c8e73d8e2a9755f0f91bf54494947308de4",
+    "format": "JASC-PAL 0100",
+    "color_count": 16,
+    "provenance_manifests": [
+      {
+        "path": "manifests/title-rayquaza.json",
+        "sha256": "966fdb7ef4348e2627d2d3f68415834e5e79ad4fd92a5921b9d3593eab5a85c4"
+      }
+    ]
+  },
+  "output": {
+    "path": "graphics/title/rayquaza-and-clouds-swatch.png",
+    "sha256": "0bceb8eb914a41990062ca2df7aeb3ab376cfe8bb933f73f32ec1c8a184c3192",
+    "format": "PNG RGB8",
+    "width": 256,
+    "height": 16,
+    "columns": 16,
+    "cell_size": 16
+  },
+  "raw_rom_bytes_included": false
+}

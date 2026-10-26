@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "asset": "JASC palette swatches",
+  "palette_count": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/render_jasc_palette_catalog.py",
+    "tool_sha256": "69b37972c873fd5b07c26ed0a2282ec5df9dfddc3dd0b77b712e62f67004e306"
+  },
+  "outputs": [
+    {
+      "path": "graphics/title/rayquaza-and-clouds.pal",
+      "sha256": "f5476579102419d58c139bf7b5ab5c8e73d8e2a9755f0f91bf54494947308de4"
+    },
+    {
+      "path": "graphics/title/rayquaza-and-clouds-swatch.png",
+      "sha256": "0bceb8eb914a41990062ca2df7aeb3ab376cfe8bb933f73f32ec1c8a184c3192"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-rayquaza-and-clouds.json",
+      "sha256": "a202c2a33aa20e4244a001db38544b72b2666ad29779fa15a36c017ce72bc605"
+    },
+    {
+      "path": "analysis/palette-swatch-catalog.json",
+      "sha256": "53bcec346d8055086c9f014e23bcbdbc30ccc62036823f462c71e3a4e8e08900"
+    },
+    {
+      "path": "research/palette-swatches.md",
+      "sha256": "37aa1a94bfc4685318a4c57b830a05596b0718dc87d2c57a8ad5493b0b4029e5"
+    },
+    {
+      "path": "tests/test_palette_swatches.py",
+      "sha256": "bbb11226e874aa49199cdd56cbdeaf391b8169ee35767ba572672a01d2be9114"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

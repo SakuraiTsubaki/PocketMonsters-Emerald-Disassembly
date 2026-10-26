@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "asset": "JASC palette swatches",
+  "palette_count": 1,
+  "official_korean_release_available": false,
+  "palettes": [
+    {
+      "language": "Japanese",
+      "origin_reference": true,
+      "source": "graphics/title/rayquaza-and-clouds.pal",
+      "source_sha256": "f5476579102419d58c139bf7b5ab5c8e73d8e2a9755f0f91bf54494947308de4",
+      "color_count": 16,
+      "png": "graphics/title/rayquaza-and-clouds-swatch.png",
+      "png_sha256": "0bceb8eb914a41990062ca2df7aeb3ab376cfe8bb933f73f32ec1c8a184c3192",
+      "evidence": "analysis/palette-swatches/graphics-title-rayquaza-and-clouds.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
