@@ -1,1 +1,55 @@
-{"schema_version":1,"id":"emerald-jp-repeated-callback-cfg","input":{"release":"BPEJ-rev0","sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c","start_offset":"0x4C4","max_span":"0x100"},"output":{"path":"analysis/emerald-jp-repeated-callback-cfg.json","sha256":"e16ed414a03ee01547020e5f02e136ff9340e3ded3d062404ce2eec4945fc102"},"raw_rom_bytes_included":false}
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "evidence_kind": "repeated-callback-cfg",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_repeated_callback_cfg.py",
+    "tool_sha256": "f1dff748ed4465a847ead04997294002bf1c2b36d4321ee122885301303edeb4"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "analysis/repeated-callback-cfg-summary.json",
+      "sha256": "1fbc157ff22dcb791e1146f85c5278968db46cf334ec738e7dac3f12f48505f8"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "c1f7be08791b30f710112a7f564353f66b51ae7e3076515de1c6598e5d888c71"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "5e3570ecfc8ea69b27229af18ac154c01235bfcbcecc966e7f2b913090061b1b"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "2d2988d2e7a73d6680a7464221886018ea30024a02543a77ef2a9c7d83ad6d3d"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "5f03ded6381e4a980982b5ba3ed607e7e5e577515f46799183be237ce4221672"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "47146082f72f7740f2e275e7330acfd094abcba0495d6e7b8ebc6b08b53c632b"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "1f04aed33594969bc11151a632ea86baa54bca09e567d4909d4401447f9677bf"
+    },
+    {
+      "path": "research/repeated-callback-cfg.md",
+      "sha256": "d63173be087e64055eab511c69cc25a02d62420736f32158a981b80cb88ff988"
+    },
+    {
+      "path": "tests/test_repeated_callback_cfg.py",
+      "sha256": "56f4973c637726e48c69650cad4071cb286732e217c0f1773bbf6773ae7d3756"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

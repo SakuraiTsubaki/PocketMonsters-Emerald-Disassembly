@@ -1,3 +1,3 @@
-# Repeated callback CFG
+# Emerald repeated callback CFG
 
-The repeatedly called local target at `$080004c4` was traced independently from BPEJ revision zero. The conservative Thumb CFG contains 70 reachable halfwords, five calls, an observed return, and canonical instruction hash `9ca6e4e7…02b0b`. The public report omits instruction halfwords and byte strings.
+The Japanese release `bpe-j-rev0-retail` remains the origin reference. For all 6 cataloged releases (Japanese, English, German, French, Italian, Spanish), the reachable Thumb main body has exactly one direct-call target referenced three times. Each per-release map independently traces that target through its observed return and preserves addresses, structure, and hashes without publishing ROM bytes or instruction halfwords.
