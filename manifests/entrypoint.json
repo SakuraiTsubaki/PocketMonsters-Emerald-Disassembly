@@ -1,2 +1,59 @@
-{"schema_version":1,"id":"emerald-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c","offset":0,"length":4}],"outputs":[{"path":"analysis/emerald-jp-rev0-entrypoint.json","sha256":"564f0037b0daa49f6a39260adf41c8eaa5d18dfb5245a34c055e1f9a059e6cd2"},{"path":"src/rom_entry.s","sha256":"01628f1418cdec5232cdc7b8f761a03bd6dbae2ccb58d4bf5f44333912498966"}]}
-
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "27a30e1068c28234649b61369463438d58eb4642c4e3c83261ec12942621888e"
+    },
+    {
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "b264cfbe8f8001dcd73ad66783d2823f203c4c3bd2439e51cef7e6ba3116b9e6"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-entrypoint-map.json",
+      "sha256": "4da730118e7b54140b7da45efad5d5354dc5ffd2d4b420d00abc51cd5c60e34a"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-entrypoint-map.json",
+      "sha256": "0fcbf2367a5fc62bd960974316f650478f9db460d379b5b18898776ca3d2e020"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-entrypoint-map.json",
+      "sha256": "47a585e6e459d71d85e1c04412b7b0cbf5ac45ca2c774aae003d6e790c5a2941"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-entrypoint-map.json",
+      "sha256": "5256b941254e95d4b94884a6cb80c65ba5c88f0dac4797748c18dde9f7bf793e"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-entrypoint-map.json",
+      "sha256": "92bc708e11b4e93cfdea3b817cb9f56db3fecd7167dc18eebdca33899e32252e"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-entrypoint-map.json",
+      "sha256": "0a9823807280b9482cb106f988acce64f34ec702706ede994bdc770644c566d0"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "7e7c89605de429de5e973f5231c4c31e3822cb8ef61dc82da1d0e7ed9c5522ff"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "ef47231fd98bebad2e5825e79932fe7245c86d85a7c082841e2b6ca75fa5209a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

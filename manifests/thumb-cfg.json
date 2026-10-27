@@ -1,26 +1,55 @@
 {
   "schema_version": 1,
-  "id": "emerald-jp-rev0-thumb-cfg",
+  "game": "Emerald",
+  "evidence_kind": "thumb-cfg",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
-    "tool": "tools/disassemble_thumb_cfg.py",
-    "version": "1.0.0"
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
   },
-  "inputs": [
-    {
-      "size": 16777216,
-      "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
-      "start_address": "0x080003a4"
-    }
-  ],
   "outputs": [
     {
-      "path": "analysis/emerald-jp-rev0-thumb-cfg.json",
-      "sha256": "c7056c310d0b40255b0396553572cfceb44c4d0643f6ebc8d38c223821984876"
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
     },
     {
-      "path": "src/thumb_entry_reachable.s",
-      "sha256": "ae7fc30e6a8f5f76257cd3bb5381c53dc5bd88c97492d7d47a630f4b34149649"
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "b264cfbe8f8001dcd73ad66783d2823f203c4c3bd2439e51cef7e6ba3116b9e6"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "9f1550e3dca4ff02a1c1caa9e71659bc7d60df8a2f87ba0196cd3560ad11b43e"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "b3aaca4e5f040d9ccaa0a5cc88aee7153130d6d464320e48f99618b9a4f62f10"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "7f0055d020c36abbc7783848bea6c285c0605c4a14cb5ca62e1f2eb4e2892d71"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "3d4c79bf36b166fd2cfb0e406188f2f66a8177d24fa723d3dd66e98ae4ef76b5"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "090f3a0bd03fe7eb33afe875241bb27c64e8c1887b847ffbffbb65de415acb48"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "dcd54affb82a95fcc4db615d88414433544d467528b5c8112852f3a8b7975256"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "772274c7d31dbc7d43db6570b817eefcf21696225adfa703527f8a79bd56cfc3"
+    },
+    {
+      "path": "tests/test_thumb_cfg.py",
+      "sha256": "f86bd065cfc68ca63cefe6bfe4bd3cd8124a28a7ea0a366e6f4e6492fa8d7fc7"
     }
-  ]
+  ],
+  "raw_rom_bytes_included": false
 }
