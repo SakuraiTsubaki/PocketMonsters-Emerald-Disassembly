@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "asset_count": 9,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "0bb31b5f9c6f2127467ea25f582a2d7a59e13b36d8c1f81c8d49e740b5c86819"
+  },
+  "inputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/title/rayquaza-en.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"
+    },
+    {
+      "path": "graphics/title/rayquaza-de.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"
+    },
+    {
+      "path": "graphics/title/rayquaza-fr.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"
+    },
+    {
+      "path": "graphics/title/rayquaza-it.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"
+    },
+    {
+      "path": "graphics/title/rayquaza-es.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"
+    },
+    {
+      "path": "graphics/title/rayquaza-and-clouds-swatch.png",
+      "sha256": "0bceb8eb914a41990062ca2df7aeb3ab376cfe8bb933f73f32ec1c8a184c3192"
+    },
+    {
+      "path": "graphics/title/rayquaza-and-clouds.pal",
+      "sha256": "f5476579102419d58c139bf7b5ab5c8e73d8e2a9755f0f91bf54494947308de4"
+    },
+    {
+      "path": "graphics/title/rayquaza.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "0cf6bcbeba8eb086fb3a8c3227699254b9190cdf2492fb457cd3da0770427ae9"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "5d7ec8c4555d47e5a6947169e5d3ef65dd28d5f7fa2b4db4dc480564287592f1"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "9e5f9bdd5e8502b196c9fefb78de1c6c9b0bf402ea019a575fbf76af2f94a075"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "618cd99bb42f701d9a443fed514b25d4489710e9e16619b8b27734befb5fc30f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

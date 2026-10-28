@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "root": "graphics",
+  "asset_count": 9,
+  "png_count": 8,
+  "metadata_count": 0,
+  "palette_count": 1,
+  "official_language_priority": [
+    "Japanese",
+    "Korean",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "assets": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "size": 774,
+      "format": "PNG",
+      "category": "header",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/header-logo-catalog.json",
+          "sha256": "344780c5bd705cfdcd2d19f60f9f5fc657fd79161eea82fc95ba9137d0a97ff8"
+        },
+        {
+          "path": "analysis/bpe-d-rev0-retail-header-logo.json",
+          "sha256": "d6c7a6b6b1ad1ab58171bf456c9c279301d4d93644c7ee9b3275a309a21a8a2a"
+        },
+        {
+          "path": "analysis/bpe-e-rev0-retail-header-logo.json",
+          "sha256": "d662fb57419eee52fdd6490003f1cb7f20039cbd7b52003ca9ed69f5d94a0e95"
+        },
+        {
+          "path": "analysis/bpe-f-rev0-retail-header-logo.json",
+          "sha256": "bb9aab1fa01651c6f49e9e711340c31286304608470b6bb7bb1a23ff66fdacd1"
+        },
+        {
+          "path": "analysis/bpe-i-rev0-retail-header-logo.json",
+          "sha256": "877b9bec9cbc896f042e461ed02e371a9cac2499e096f19b6746f74925a5e530"
+        },
+        {
+          "path": "analysis/bpe-s-rev0-retail-header-logo.json",
+          "sha256": "3f683a44b78d9d2f8d0c981a1fc18ca6ccd631fdc9f91ca27b1f10177a66143a"
+        },
+        {
+          "path": "analysis/emerald-jp-header-logo.json",
+          "sha256": "1602651660c8ebdc9883e357b93b3e21e9b0f84d881b9f82995f37d60d5cb7be"
+        },
+        {
+          "path": "analysis/header-logo-catalog-summary.json",
+          "sha256": "8444f6fc842d8aca0974e6c9bffdd04d38d86763faf09e820b2592cc9b8ab563"
+        }
+      ],
+      "png": {
+        "width": 416,
+        "height": 64,
+        "bit_depth": 8,
+        "color_type": "truecolor-alpha",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza-en.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f",
+      "size": 2401,
+      "format": "PNG",
+      "category": "title",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-rayquaza-global.json",
+          "sha256": "c7549c19761180a62a00332d6fdf36dc1a5df430bafb9843f3681f490e31c5e9"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza-de.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f",
+      "size": 2401,
+      "format": "PNG",
+      "category": "title",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-rayquaza-global.json",
+          "sha256": "c7549c19761180a62a00332d6fdf36dc1a5df430bafb9843f3681f490e31c5e9"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza-fr.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f",
+      "size": 2401,
+      "format": "PNG",
+      "category": "title",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-rayquaza-global.json",
+          "sha256": "c7549c19761180a62a00332d6fdf36dc1a5df430bafb9843f3681f490e31c5e9"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza-it.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f",
+      "size": 2401,
+      "format": "PNG",
+      "category": "title",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-rayquaza-global.json",
+          "sha256": "c7549c19761180a62a00332d6fdf36dc1a5df430bafb9843f3681f490e31c5e9"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza-es.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f",
+      "size": 2401,
+      "format": "PNG",
+      "category": "title",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-rayquaza-global.json",
+          "sha256": "c7549c19761180a62a00332d6fdf36dc1a5df430bafb9843f3681f490e31c5e9"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza-and-clouds-swatch.png",
+      "sha256": "0bceb8eb914a41990062ca2df7aeb3ab376cfe8bb933f73f32ec1c8a184c3192",
+      "size": 203,
+      "format": "PNG",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/palette-swatches.json",
+          "sha256": "03e9eb0c1b74bb2873a15bde4cb23a01692b92ea45315682ad9f884380742eb7"
+        },
+        {
+          "path": "analysis/palette-swatch-catalog.json",
+          "sha256": "53bcec346d8055086c9f014e23bcbdbc30ccc62036823f462c71e3a4e8e08900"
+        },
+        {
+          "path": "analysis/palette-swatches/graphics-title-rayquaza-and-clouds.json",
+          "sha256": "a202c2a33aa20e4244a001db38544b72b2666ad29779fa15a36c017ce72bc605"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 16,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza-and-clouds.pal",
+      "sha256": "f5476579102419d58c139bf7b5ab5c8e73d8e2a9755f0f91bf54494947308de4",
+      "size": 173,
+      "format": "JASC-PAL",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/palette-swatches.json",
+          "sha256": "03e9eb0c1b74bb2873a15bde4cb23a01692b92ea45315682ad9f884380742eb7"
+        },
+        {
+          "path": "manifests/title-rayquaza.json",
+          "sha256": "966fdb7ef4348e2627d2d3f68415834e5e79ad4fd92a5921b9d3593eab5a85c4"
+        },
+        {
+          "path": "analysis/palette-swatch-catalog.json",
+          "sha256": "53bcec346d8055086c9f014e23bcbdbc30ccc62036823f462c71e3a4e8e08900"
+        },
+        {
+          "path": "analysis/palette-swatches/graphics-title-rayquaza-and-clouds.json",
+          "sha256": "a202c2a33aa20e4244a001db38544b72b2666ad29779fa15a36c017ce72bc605"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/title/rayquaza.png",
+      "sha256": "7cd0a76cf0d0ac0270bbd555b3dba8c0893e71f7e7b8b51d4e51c4e4ddb21a9f",
+      "size": 2401,
+      "format": "PNG",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-rayquaza.json",
+          "sha256": "966fdb7ef4348e2627d2d3f68415834e5e79ad4fd92a5921b9d3593eab5a85c4"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
