@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "axis": "Disassembly",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_check_flash_memory.py",
+    "tool_sha256": "3da06354635e7fd9e07f22250d0980472dee306d4a5919cfb0f8e02bee4c2c22"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/check_flash_memory.s",
+      "sha256": "7a52edd3b0ab7ae239073027153a138500180e12608d83d7ed31966aa9f5c8df"
+    },
+    {
+      "path": "analysis/check-flash-memory-disassembly-summary.json",
+      "sha256": "3c9d019d942241c0e887809c26ac768b5fe593887b35112dd854ece9f271e7b3"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "fd37cbfdf1811dc20b3e57edbf5edcee2381d78ae4c2ab42efb825de836fdc24"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "674219d257e156e7c1da41ba836df8a0ad8ed993ae59c41205ee4415333323f0"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "fd70ee9980dc9bb434c3c74d7bfb419be9c5db918c93dd188f1d99f5d9e22b71"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "74af2841b3374246cd0cc26b20fa0f827794b48aefbb2d9458f524d336381fe8"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "0f5868d9ece13aee9e2cf51a08d94107af50ad493da68086eb639cd9033238b4"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "efc6f564da4b7d7777ab77cace8cd8550c8801164fc1b8e4e4c4e73d26956829"
+    },
+    {
+      "path": "research/check-flash-memory-disassembly.md",
+      "sha256": "02e64e91d190e271b0aae394a36bcf1785ed9d41150219be97fb655c05214c1c"
+    },
+    {
+      "path": "tests/test_check_flash_memory_disassembly.py",
+      "sha256": "653729e30fe3684853ad60a8ddcdd6936dae417bd85d742f0174f84fe8c70fd2"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

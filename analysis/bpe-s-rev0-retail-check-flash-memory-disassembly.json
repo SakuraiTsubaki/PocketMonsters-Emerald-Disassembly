@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e"
+  },
+  "origin_reference": false,
+  "axis": "Disassembly",
+  "source": "src/check_flash_memory.s",
+  "source_sha256": "7a52edd3b0ab7ae239073027153a138500180e12608d83d7ed31966aa9f5c8df",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "rule": "unique direct target matching the flash-detection CFG signature"
+  },
+  "function": {
+    "name": "CheckForFlashMemory",
+    "address": "0x08076B64",
+    "range_end_exclusive": "0x08076B8A",
+    "rom_code_range": {
+      "start_offset": 486244,
+      "end_offset_exclusive": 486282,
+      "length": 38,
+      "sha256": "daef9fc3e34e3b884bea2dd35d49a958835ab0871f57afa42b11206222a3dc7d",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "IdentifyFlash",
+        "source": "0x08076B66",
+        "target": "0x082E94E8"
+      },
+      {
+        "name": "InitFlashTimer",
+        "source": "0x08076B76",
+        "target": "0x08000800"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 17,
+    "edge_count": 3,
+    "edge_kinds": {
+      "branch": 1,
+      "conditional-fallthrough": 1,
+      "conditional-taken": 1
+    },
+    "direct_call_count": 2,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "7a21c4707ef937bb8725955ba693d580bdaf241025680a34aada3aa9224fb1ad",
+    "raw_halfwords_omitted": true
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/load_save.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
