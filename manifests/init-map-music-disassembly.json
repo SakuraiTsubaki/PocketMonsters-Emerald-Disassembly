@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "axis": "Disassembly",
+  "function": "InitMapMusic",
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_map_music.py",
+    "tool_sha256": "60b3160625669bae31e50dfea0812a61e3efa807a00ac9aabe6a18489b85e0f1"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/init_map_music.s",
+      "sha256": "a1b10ebeb64848c765dacd1d153e55c97727a8cf19f4119611d9f08f7e3dacb0"
+    },
+    {
+      "path": "analysis/init-map-music-disassembly-summary.json",
+      "sha256": "efbb9d72c7c0c0c6e49eeefaee32984ee6f4df147296a349471fbb3817485dba"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "ffed3ebbb74dde0938fc613dcd3d47bd2719f7c4b311daac3d6de650bf7877ea"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "41bc8e028fc5e38025f9ab1a48936fa66cae2559512239120aec2850d4b23ab4"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "b8cc137bc822ae0fbbedec4a6cee10d420ab9c9582b21df2099919d6ff4081f6"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "3e9624e32729dc152cf1ce664e8cf348f75833a7f75efdbc7f8d0f2e256bc0c9"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "c20478b76ab5be8a3e2f4d532cf973c008b62f74d4eff63f193a8faacb367a0d"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "ca591fa3c6349f02920d8d69df53b25e571b7088050a0e588279fb3f955c75ad"
+    },
+    {
+      "path": "research/init-map-music-disassembly.md",
+      "sha256": "05328db406df0c87b234dc4a6d9482107b277915163c0b6acfa97c33b89c00b8"
+    },
+    {
+      "path": "tests/test_init_map_music_disassembly.py",
+      "sha256": "5eadf9a5b341fc8aad363273c3380bd02ccbb05fb8449d0d52927f9b746bf7c7"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
