@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "function": "SetDefaultFontsPointer",
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_default_fonts_pointer.py",
+    "tool_sha256": "c1b8dd9344f88210e1df41dc0822cb02cb795ac519627fd65eba01e125098731"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/set_default_fonts_pointer.s",
+      "sha256": "ac165f51dc8f302eae94ccae371ac64185694460bc698e3befba80169e63a29e"
+    },
+    {
+      "path": "analysis/default-fonts-pointer-disassembly-summary.json",
+      "sha256": "a708b75aab3aa6da3836991824326f1e6959a2b739f56bb20ccd0d072faade09"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "0132046b09c27c8888f4ac4c08c6604f82736a08961c677e0cf2249d93f74e55"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "9f1c5efd395093546ae62c6c888976a4cce473964e29a1de231e0b2da4f8fdd9"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "67853d9e0e56c3775579ad7db02f16e23bb74e4fb4a3e0dc03cf51d3ab8f4cd0"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "8f7dfce9b558ae5cff469fdc34eb2a4e682132f90d69da8c6cb6fb8970db0a2c"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "4ca8d16e6de71af8ab479ed0f025e93945aba652312081def5c0bca1a79d7cae"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "d9959aed00fb2f1caade5bb1d25c70b5bdef587b3bc17a378963617b0c63c7db"
+    },
+    {
+      "path": "research/default-fonts-pointer-disassembly.md",
+      "sha256": "324b3b5c8c25e3ac1da7034c53bf59cee690b8f64ecf7d9dd35c3e90e8dc3889"
+    },
+    {
+      "path": "tests/test_default_fonts_pointer_disassembly.py",
+      "sha256": "75f1fbab966ca23871c065cdb3e41bf28ecd7f3ff1a4007c628946430cb2157c"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
