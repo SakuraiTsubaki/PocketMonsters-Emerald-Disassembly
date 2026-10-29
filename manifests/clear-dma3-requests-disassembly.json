@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "function": "ClearDma3Requests",
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_clear_dma3_requests.py",
+    "tool_sha256": "65920c5065510f56dec45703cda854251d0faa70de8a143e5a74654d788ac7b6"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/clear_dma3_requests.s",
+      "sha256": "e28a306b5e0b96378bbe2313634d51ebbd63cfdde0c84fec16d58153dcf66701"
+    },
+    {
+      "path": "analysis/clear-dma3-requests-disassembly-summary.json",
+      "sha256": "fc1e11de15c2e5d8b8653773cd7e1951029742c9c52b088a9a17d7b14436ca23"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "f3c42bff1e0c0eb9f73689c219faee78111d562b266e0d88ced2e918e6f96fdb"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "14707781e1fb79a594a90a7f38482b2a8826668f408b7c64cfa153cc3ece44be"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "bfcfb24228716871e2564954b0fc9c70a805c56cf9f8643333dd80ee50f9cd84"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "a985acc5a171f4e68fa1a912c4ec9dda3dd814cd4624a8f60f418d8199ed0583"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "74c25c7af1345a9ac33e66bbc8d96b1d5d1c94ada41441ea75dbcace9a8cc7d1"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "a192aaa6b03247b4b5fbccc48b98e410eac6956a412087c25ac9fd4051464eca"
+    },
+    {
+      "path": "research/clear-dma3-requests-disassembly.md",
+      "sha256": "ca856d4b98c3cdecaa75962ada0fe4f0078be8f559e826ea5fc290b1ec230071"
+    },
+    {
+      "path": "tests/test_clear_dma3_requests_disassembly.py",
+      "sha256": "177bd291c47acc89232444ed00287ff2d9224512bfc078cf7cb89ca5b7308988"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
