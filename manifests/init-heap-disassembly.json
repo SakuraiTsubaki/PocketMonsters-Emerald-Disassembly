@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "function": "InitHeap",
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_heap.py",
+    "tool_sha256": "c6b655bdf012ebce78088b225093a10579cd6a45f23dd4e685c0f9cad9c46105"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/init_heap.s",
+      "sha256": "4aa39e48e325fc644d22d4398077cd2a77bf428b8d6946bf6b3e335dd5e3b1bb"
+    },
+    {
+      "path": "analysis/init-heap-disassembly-summary.json",
+      "sha256": "463f749dd8f19b995878ec8f1cb6f72244d372b871cfe110b04efcb7a95b6e1d"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-init-heap-disassembly.json",
+      "sha256": "eee619dbe3756cb275cdf8db55f5cdf61ac6399fb789e46fe320ce376dc8df72"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-init-heap-disassembly.json",
+      "sha256": "ab342bd23956d74a35a7243c9bb6d4e14c508cd081af8112d92a5ca57ded8eae"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-init-heap-disassembly.json",
+      "sha256": "4e94de8dfea3776b4f414edf4e7656355682dd61da7dcef6a0d41766f61c270c"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-init-heap-disassembly.json",
+      "sha256": "9438d63ddecafab21d0206440a66128b3e95c33c04125730e5928180377a1b47"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-init-heap-disassembly.json",
+      "sha256": "99e27917b76c5ff44f94e6afc075de2520a2a6d329f5496f0fefa553d81b72a5"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-init-heap-disassembly.json",
+      "sha256": "93e80cb50091bb06e22becde4c74c106de470a48751f7b7548df0d5c2ccece88"
+    },
+    {
+      "path": "research/init-heap-disassembly.md",
+      "sha256": "c9d44dff7e2329eb7d2efe23f2960f711914f260bb5a6fdd1f9e3e22192917af"
+    },
+    {
+      "path": "tests/test_init_heap_disassembly.py",
+      "sha256": "e9108c2eb51d9d99178dc4126e2ded9285bebe5b4ef36158c988970434e59c78"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
