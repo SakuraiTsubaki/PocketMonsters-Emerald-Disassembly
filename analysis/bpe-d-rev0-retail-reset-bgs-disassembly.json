@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpe-d-rev0-retail",
+    "sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4"
+  },
+  "origin_reference": false,
+  "source": "src/reset_bgs.s",
+  "source_sha256": "56871b265dd153b0a256f599f6dc7aa045dbc21f9362ffcdd43fce3084b9ac17",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "boot_call_source": "0x080003EE",
+    "rule": "direct boot call immediately after ClearDma3Requests"
+  },
+  "function": {
+    "name": "ResetBgs",
+    "address": "0x080012F0",
+    "range_end_exclusive": "0x08001304",
+    "rom_code_range": {
+      "start_offset": 4848,
+      "end_offset_exclusive": 4868,
+      "length": 20,
+      "sha256": "207faafca3dea4425c98f96af10603e7af3a7ab870cafa18abdcdf89c6b860e4",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "ResetBgControlStructs",
+        "source": "0x080012F2",
+        "target": "0x08001334"
+      },
+      {
+        "name": "SetTextModeAndHideBgs",
+        "source": "0x080012FC",
+        "target": "0x080016BC"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 10,
+    "edge_count": 0,
+    "direct_call_count": 2,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "207faafca3dea4425c98f96af10603e7af3a7ab870cafa18abdcdf89c6b860e4",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "reset-structs-clear-dispcnt-hide-bgs",
+    "sGpuBgConfigs_address": "0x030008E0",
+    "bgVisibilityAndMode_address": "0x030008F0",
+    "bgVisibilityAndMode_value": 0,
+    "callee_relative_offsets": [
+      68,
+      972
+    ]
+  },
+  "cross_reference": {
+    "clear_dma3_requests_map": "analysis/bpe-d-rev0-retail-clear-dma3-requests-disassembly.json",
+    "clear_dma3_requests_map_sha256": "bfcfb24228716871e2564954b0fc9c70a805c56cf9f8643333dd80ee50f9cd84"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/bg.c"
+  },
+  "raw_rom_bytes_included": false
+}
