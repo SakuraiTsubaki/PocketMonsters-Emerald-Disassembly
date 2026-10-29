@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "axis": "Disassembly",
+  "function": "InitMainCallbacks",
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_main_callbacks.py",
+    "tool_sha256": "6fc93ef816e04f780ef724c37044e912bb0e925192036342ec7755622b4f8080"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/init_main_callbacks.s",
+      "sha256": "a20500bdccbaf311aa725244b43762882d5fc10c8d2eae0b65a6f1de250aa475"
+    },
+    {
+      "path": "analysis/init-main-callbacks-disassembly-summary.json",
+      "sha256": "03ba55046701b4705ffe0e20b7d6c5458c8ecb6426692a3919a426020214b047"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "4ffa5f5827586722ec16f5e443f578141f11062b639e82a17de4b7027b33bed4"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "58283234626e8904cb90261fd50531d3a1c5759848536f997f07d3488e268612"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "ecf4b917450df4e624e66d49921bced89836ccd6a651c7bea1592a49e51c1100"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "f36fceb40c20002ac6ed75dbdf8364c2fd05fea8b3902a01da6519c515f84ec2"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "45af1817c1cfd39bf17051b312babd897b61e13afda610478517469141154295"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "1dc99aef5e286eac0af86cf38a24bb77b93c43d9831ca5cf373c0e16cfa91382"
+    },
+    {
+      "path": "research/init-main-callbacks-disassembly.md",
+      "sha256": "1504757db4bda5e26fc1359dd948ec8b089a2e230fb119a080137cda267d44d4"
+    },
+    {
+      "path": "tests/test_init_main_callbacks_disassembly.py",
+      "sha256": "8159cdf94c522b431678327749dad5172bfae89ac9b9406ee0e62b63416f6750"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-f-rev0-retail",
+    "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4"
+  },
+  "origin_reference": false,
+  "axis": "Disassembly",
+  "source": "src/init_main_callbacks.s",
+  "source_sha256": "a20500bdccbaf311aa725244b43762882d5fc10c8d2eae0b65a6f1de250aa475",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "boot_call_source": "0x080003E2",
+    "rule": "direct boot call immediately after CheckForFlashMemory"
+  },
+  "function": {
+    "name": "InitMainCallbacks",
+    "address": "0x080004D8",
+    "range_end_exclusive": "0x080004FE",
+    "rom_code_range": {
+      "start_offset": 1240,
+      "end_offset_exclusive": 1278,
+      "length": 38,
+      "sha256": "e899a700f85d64dbe15c8f7778f0e8ffbd17d434e5ae3ac0e8471cab192bb430",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetMainCallback2",
+        "source": "0x080004EA",
+        "target": "0x08000540"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 19,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "e899a700f85d64dbe15c8f7778f0e8ffbd17d434e5ae3ac0e8471cab192bb430",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "emerald-storage",
+    "zeroed_state": [
+      "gMain.vblankCounter1",
+      "gTrainerHillVBlankCounter",
+      "gMain.vblankCounter2",
+      "gMain.callback1"
+    ],
+    "initialized_pointers": [
+      "gSaveBlock2Ptr",
+      "gPokemonStoragePtr"
+    ],
+    "callback2_initializer": "copyright-screen initializer"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/bpe-f-rev0-retail-check-flash-memory-disassembly.json",
+    "check_flash_memory_map_sha256": "74af2841b3374246cd0cc26b20fa0f827794b48aefbb2d9458f524d336381fe8"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
