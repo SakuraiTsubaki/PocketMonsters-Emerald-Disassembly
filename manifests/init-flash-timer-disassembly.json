@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "axis": "Disassembly",
+  "function": "InitFlashTimer",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_flash_timer.py",
+    "tool_sha256": "a4d18af09f24254928e24512860a78f1effa1615213af143a1b14da516231269"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/init_flash_timer.s",
+      "sha256": "61f659249cb169ea213bb6e1970ab33c4817dfd37e7548ae2db915a9a24dbc95"
+    },
+    {
+      "path": "analysis/init-flash-timer-disassembly-summary.json",
+      "sha256": "bde6a13c4e14fe73c932e4c34e6073cec71024d1a756ee64abc9edbc07641e5c"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "7cb071140048852fa01d0271c78b3c65921aaf5d224594e2525b24d4150ee9bc"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "d92dda154efa14078d0e90a3cbf70e76abb1d867e54011739ab3294b6d59e590"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "76bcb246b49dd7fb8e7f83ab5ad56c013d9b5c124074af86a88dad0af263b113"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "63aa92d0661b371f0e731ebbfcd287f52aed66433b631b6f5513e06209f17114"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "36383704d5cc2d54913d253c33f323e1724f1bd8e46fe4fcc465f2653b1796df"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-init-flash-timer-disassembly.json",
+      "sha256": "704e422e75eff4057b3626f83b1afb361ed1b2721ad66d9b7902d708aa0b998d"
+    },
+    {
+      "path": "research/init-flash-timer-disassembly.md",
+      "sha256": "854cf6d379fafc7e2e9688612979d0c34aa3bf9721c5cf6de777153b1ec1c3d4"
+    },
+    {
+      "path": "tests/test_init_flash_timer_disassembly.py",
+      "sha256": "1625dee20ba2039d066064bb9dbe53efcce0a8a07fc166b1bc86b50860fa4a64"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
