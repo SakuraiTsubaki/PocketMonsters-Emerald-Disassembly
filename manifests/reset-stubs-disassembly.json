@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "functions": [
+    "RegisterRamReset",
+    "SoftReset"
+  ],
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_reset_stubs.py",
+    "tool_sha256": "82440844efd64a739145ee009454885aab9a7b83892f194aa6bd8efec87e0ef6"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/reset_stubs.s",
+      "sha256": "b021ad0ef730b45a1b119ef54e0977cd742ee7839062257557e0fcf5539a7ae0"
+    },
+    {
+      "path": "analysis/reset-stubs-summary.json",
+      "sha256": "145f875986cfebadde21e37b220ccc70bb10c425d8974115acb9d786ea95bae3"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-reset-stubs.json",
+      "sha256": "9095e13b475cf71ffd098303008ad6eeaa7470f4ce485544e345a4cc2464c1ab"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-reset-stubs.json",
+      "sha256": "99993a6faba43736896a1565026a9baad50195026b1f492df9aa6dcec55a6768"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-reset-stubs.json",
+      "sha256": "d6e6b682a96b0516e29949b3b83cec471652f684aeab0df35c57e8317fd59b41"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-reset-stubs.json",
+      "sha256": "1f65a280b5d47992e2d65408cdf72982626aca9b183f86c7021c4caa80790571"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-reset-stubs.json",
+      "sha256": "d9347b37895f68fd64acc007cbcc8fec01c10d042d97f582068be6652bfb485b"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-reset-stubs.json",
+      "sha256": "b20ebb85d192d3d294b7078a2439409facc45f11c18c6b92c1098b10edfa2c47"
+    },
+    {
+      "path": "research/reset-stubs-disassembly.md",
+      "sha256": "ee06cda6dabfa316b480b7f31cccf95584184599c0a26e39df48717daa1f26da"
+    },
+    {
+      "path": "tests/test_reset_stubs_disassembly.py",
+      "sha256": "5d43494c0ad0a7775e8d0cd08fdad09db9081b41b6ee5246f519acc2342fa284"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
