@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_call_via_stubs.py",
+    "tool_sha256": "55f40cb2265a9ad4a6ff56ce228e331837b0d2b75936a973f03b0db0d326ea3b"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-stubs-summary.json",
+      "sha256": "358c980a995740a80fa3e308dabfa962963bc330a4f9142de44ec6b20efc7285"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-call-via-stubs.json",
+      "sha256": "04144673fa4fbae53ce14ff75ccd140246e504b2ebfe749d8fbf3473c1515005"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-call-via-stubs.json",
+      "sha256": "e3c16ecf9c8ba52475e5f18fbab91153dac3080db1c30b8960aced531726cb1e"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-call-via-stubs.json",
+      "sha256": "e19b102bf625d408c846c9540405b9755d3eb4798bb5bf28dfeafa4cdd38b02e"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-call-via-stubs.json",
+      "sha256": "63d2088352c857d696b3a13fb0a17ed519aedc4acbd4706cd43ef025067d8289"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-call-via-stubs.json",
+      "sha256": "443f48f6fa8332894ccd0697101cd0091758cf8d10dc4900086006fd8a969050"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-call-via-stubs.json",
+      "sha256": "c6bd47cac0cd70c013308b9eaee3bb217ee1e80353d65e08cbfbfeb977f9f3b2"
+    },
+    {
+      "path": "research/call-via-stubs-disassembly.md",
+      "sha256": "6b8db80c2d76478b88fa65fc56f8d510bdf010c9d95521b7974dc9bde2a1874c"
+    },
+    {
+      "path": "tests/test_call_via_stubs_disassembly.py",
+      "sha256": "7e2c4eb7268aa1764ca0c58af0da801021934b777f27ffa32283811daf220633"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
