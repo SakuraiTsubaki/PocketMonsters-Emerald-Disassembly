@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "functions": [
+    "Sqrt",
+    "VBlankIntrWait"
+  ],
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_sqrt_vblank_stubs.py",
+    "tool_sha256": "0db9d9d0414c978db443aafa77b5d3f0cf65d10e0c08bdd390a7bc507ff9cb8f"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/sqrt_vblank_stubs.s",
+      "sha256": "25fc3c3a7cf444b8efd114ac7de4b5ab25c974f523de8797a13bad010399373b"
+    },
+    {
+      "path": "analysis/sqrt-vblank-stubs-summary.json",
+      "sha256": "454118164b9680d8298d3699105b7e2a8314711abfa5e7df383b5f78f080ee07"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-sqrt-vblank-stubs.json",
+      "sha256": "138a21ca1fe60b78b4096d7ab58ffceccc73a75b52e152c7c8ecf71ff91b6331"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-sqrt-vblank-stubs.json",
+      "sha256": "77cedd79d8a62e790485a2c2f81eceae562f8baad28ac20727737824a38323d6"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-sqrt-vblank-stubs.json",
+      "sha256": "6210733295824667cb47f884d4c60a1c6efc35b566c487bdede1a5eec38137cb"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-sqrt-vblank-stubs.json",
+      "sha256": "f586d517e0522af94ac4de8476bf14d0376ec9b79bd1da6aeff87b0b5f58ca19"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-sqrt-vblank-stubs.json",
+      "sha256": "8fabec90a027f6ed0313077116042614d3f6655621ef955ad25040d8a123e489"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-sqrt-vblank-stubs.json",
+      "sha256": "a49eb2fc080895f2ccc5bd7f30aeb6b2983e262568f6a8307985ca3c3f5485c9"
+    },
+    {
+      "path": "research/sqrt-vblank-stubs-disassembly.md",
+      "sha256": "a18d5d37c2e603335d02ea88064d7904195b591080973c75ab8e611dabe0d05e"
+    },
+    {
+      "path": "tests/test_sqrt_vblank_stubs_disassembly.py",
+      "sha256": "d00d5e9986f70296301063248d9b858951f7b66c4009bd572c492a665472ae31"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
