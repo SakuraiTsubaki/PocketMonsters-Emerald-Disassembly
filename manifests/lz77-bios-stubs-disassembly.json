@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "LZ77UnCompVram",
+    "LZ77UnCompWram"
+  ],
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_lz77_bios_stubs.py",
+    "tool_sha256": "cf0084a4f60f1f1f71ae5803df9a80874a071bdbb00d12e6465a6d41f4e5cc06"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/lz77_bios_stubs.s",
+      "sha256": "d3bbc762342fbe9da694f5a19a433a532cd94ba9053664d5cc4dfa07205fae50"
+    },
+    {
+      "path": "analysis/lz77-bios-stubs-disassembly-summary.json",
+      "sha256": "4e0480b3b11c93a70cd6b1050af11414afd8f4b0719ad665679f0950d74c8d31"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "e816e2abfeef178610379b2a10fb99513c5019254b7b941dfb33f4acc099e437"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "90111041a4939f596ada70ac19785cbd0fe815e57203055255f8cc38610140d1"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "4b129416786ee972075ec6bfe1ebd99af63379636f1311d1f388bc6dfa755880"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "ad450bb811ea3758c888156ab4c43c2a31d0a00105e9de771ba51bf0c3a91efe"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "ca42ddd70b42f74b92a5e7d6b7529a0f3fc26934d1537e034b48b4364e2ab431"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "4f87e35337872476c6abc365bf114f636f550c479def5e12da2f2727a1d7ce91"
+    },
+    {
+      "path": "research/lz77-bios-stubs-disassembly.md",
+      "sha256": "05a6a21680f5ed437579a6d4602730e0937099f941ab347e95d2099f1c5f0e2f"
+    },
+    {
+      "path": "tests/test_lz77_bios_stubs_disassembly.py",
+      "sha256": "c10327faab43d754871f9e9e98e9539fc7d504ea17fc8b35515a83770bd008f9"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
