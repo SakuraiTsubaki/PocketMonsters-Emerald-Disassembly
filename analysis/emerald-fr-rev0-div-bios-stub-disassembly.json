@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "emerald",
+  "target": {
+    "release": "emerald-fr-rev0",
+    "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/div_bios_stub.s",
+  "source_sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0",
+  "function": {
+    "name": "Div",
+    "rom_offset": 3080284,
+    "address": "0x082F005C",
+    "range_end_exclusive": "0x082F0060",
+    "length": 4,
+    "code_sha256": "8e93a1720c694e06005b83e2dbaf36a800649ab8948fc4e15efa39309f4c5ce6",
+    "numerator_register": "r0",
+    "denominator_register": "r1",
+    "quotient_register": "r0",
+    "remainder_register": "r1",
+    "absolute_quotient_register": "r3",
+    "software_interrupt": 6,
+    "return": "bx lr",
+    "signature_match_count": 1,
+    "lz77_vram_relative_offset": -4,
+    "selected_by_verified_sdk_layout": true
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x082F0060",
+    "relative_offset": -4
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/emerald-fr-rev0-lz77-bios-stubs-disassembly.json",
+    "sha256": "ad450bb811ea3758c888156ab4c43c2a31d0a00105e9de771ba51bf0c3a91efe"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "libagbsyscall/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

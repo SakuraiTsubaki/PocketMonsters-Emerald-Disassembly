@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "function": "Div",
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_div_bios_stub.py",
+    "tool_sha256": "0e55d86c4522a663df62777e67849a1c144bb2aafb7af47076fe53a24fb45dae"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/div_bios_stub.s",
+      "sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0"
+    },
+    {
+      "path": "analysis/div-bios-stub-disassembly-summary.json",
+      "sha256": "85066e9783a6f90a4dab8b5506451eb577b90f3f441907fd4ba479c07ea0b6f1"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-div-bios-stub-disassembly.json",
+      "sha256": "46cbaab6318152c18793e680767fa00a3642ca57d94405ee308be054c5098ae9"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-div-bios-stub-disassembly.json",
+      "sha256": "c9b866f9d898a8173750088608e9587827d825282e79e3d4ab55f6366aca5df1"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-div-bios-stub-disassembly.json",
+      "sha256": "99cdd0267fd3dc5d9e53fda9a9c915989f4d8854f3ae8cd5a64f35e16838617b"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-div-bios-stub-disassembly.json",
+      "sha256": "70d102c51fe6c80a1c7e31c925614939e0a857ae6ca6e7f3fec2c93b80d5ea25"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-div-bios-stub-disassembly.json",
+      "sha256": "208605f71458905ed543050157de94618f0d24bc88f347896bb0de8d476e64de"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-div-bios-stub-disassembly.json",
+      "sha256": "4615a3977f1158bcee8b05c6b157467a8f04cc4bc2f5295f6bcd1da5702e468a"
+    },
+    {
+      "path": "research/div-bios-stub-disassembly.md",
+      "sha256": "ebd2597ccc680b0ec95de66d7123f94fe65d61fb4f5a6922e10c89907c2a5ddd"
+    },
+    {
+      "path": "tests/test_div_bios_stub_disassembly.py",
+      "sha256": "f6bc21cc2c7872ffd897ea0dd0b9b5d0cc68b8f9a9ed34a3a22eae46120bb25a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
