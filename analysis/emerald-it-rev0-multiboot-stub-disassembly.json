@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "emerald",
+  "target": {
+    "release": "emerald-it-rev0",
+    "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/multiboot_bios_stub.s",
+  "source_sha256": "2ed8f848b1a2db14f543d1f2ec774d06696eca4feebdd9d6752d0044a7394683",
+  "function": {
+    "name": "MultiBoot",
+    "rom_offset": 3047456,
+    "address": "0x082E8020",
+    "range_end_exclusive": "0x082E8026",
+    "length": 6,
+    "code_sha256": "1a0c04e017cf4403e3b9453e951104a6a7f633f89aab670cde478cc915c58a78",
+    "mode_register": "r1",
+    "mode_value": 1,
+    "parameter_register": "r0",
+    "result_register": "r0",
+    "software_interrupt": 37,
+    "return": "bx lr",
+    "signature_match_count": 1,
+    "lz77_vram_relative_offset": 8,
+    "selected_by_verified_sdk_layout": true
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x082E8018",
+    "family_relative_offset": 8
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/emerald-it-rev0-lz77-bios-stubs-disassembly.json",
+    "sha256": "ca42ddd70b42f74b92a5e7d6b7529a0f3fc26934d1537e034b48b4364e2ab431"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "libagbsyscall/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
