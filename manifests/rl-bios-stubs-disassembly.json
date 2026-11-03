@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "RLUnCompVram",
+    "RLUnCompWram"
+  ],
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_rl_bios_stubs.py",
+    "tool_sha256": "2945e85be58885e243bc1a50dc6d72cd49c40bc320a89ca4ff506ddc36edf5d5"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/rl_bios_stubs.s",
+      "sha256": "bf373181708d6a9eea10b8e04fe68026b65b57e9fd8d9a7cec78ec27922862af"
+    },
+    {
+      "path": "analysis/rl-bios-stubs-disassembly-summary.json",
+      "sha256": "86cf0129c3d5594f59c17323ffdf137fd3ad9d0579b68063d8b425ab2f86b753"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "d6f8cfc3d9688cc845a925f9c819ac57e9a5cde92d55b100cb487263b8516f20"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "b922c769b8554e8b2d0756cd737b0e67752561355dc31f06314dfba496316255"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "e617893b43e9943c70e9fdb2610106ced1f61cbc75731e65e2cd8a25e2c167c2"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "0d0640f93eb02d142261e9c79ff440b1d19a9f6a6202c6df310b84a890743c71"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "4c2cc553914e4490a53b5bbff7dcbc2c7792dc19c40ca5c3d5f62a0e361ce33e"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-rl-bios-stubs-disassembly.json",
+      "sha256": "074ad24f4e436a1801aa5bbd3c85eb15b6b6123d11de5229520146ba1c9ec29a"
+    },
+    {
+      "path": "research/rl-bios-stubs-disassembly.md",
+      "sha256": "6df9e249a35c15cbc57f7554e1bc21719a3fa70e5c840f219965a6739c6ac375"
+    },
+    {
+      "path": "tests/test_rl_bios_stubs_disassembly.py",
+      "sha256": "42377bae656008d45f1146176bfd7e3d5359ed6860db22d73ab12ff178871717"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
