@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_arctan2_cpuset_stubs.py",
+    "tool_sha256": "011082c36dc18fbaeb8325934d07ef4a0342cc270c75b331bf94a000263f2df9"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stubs-disassembly-summary.json",
+      "sha256": "682bf85945eb9bcaa42aafc1b4fd156ddded8437edb9fea03e31f5534881810a"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "8a77f03e863bb9f5ba9e6cf992b0d7ae36ec95cae118732ee4219552cb49dce2"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "c9b652405c0fd88c948bf5e1221916d8cfd7c9c889cf355cdfc7629370004da5"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "fcddabe0d5f1bbeb0bc428711ad09c3b94a32e5aba47037dfe889c6df319a432"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "040d5a6b8ef6f7cc51c2b1cbd2e57728b8761e5375416afcc85a742fcccc978e"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "597323c391c19533ab0c568e198dea3a81d71566d5ba8abb495c41e982ad5ad3"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "9f109a92113df3441101c31eecc912eb5ab396ad1e7a20e8314746bb180e1143"
+    },
+    {
+      "path": "research/arctan2-cpuset-stubs-disassembly.md",
+      "sha256": "d6bb804855f9039ba2f44415bce2a5dd2e0cf0913f7494c9031fa9c28fa99050"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stubs_disassembly.py",
+      "sha256": "915a71e479518484e35101a14fa88526552b19b3ab646ba35204b5c9ffcf1ff4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
