@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "profile": "emerald",
+  "origin_reference": "emerald-jp-rev0",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_affine_copy_bios_stubs.py",
+    "tool_sha256": "68098fe54fac1eee1af36825818965e8b81c81d26fc916859265ee6e895095fb"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "5730f3e330c30e6b2f347f42157b9475bb1462c458fec5b1e0a1402a2d9d6aa3"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stubs-disassembly-summary.json",
+      "sha256": "3aa8368f542d66d52cb0498d29f728c7add5da5c8094391aacf5483ba3835a6d"
+    },
+    {
+      "path": "analysis/emerald-jp-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "78fa6555cfe165174bcedcdfda34d4c7511bde7beca5070af04ba7a90fdcbd4a"
+    },
+    {
+      "path": "analysis/emerald-en-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "08a871d8f0812c28be8ead3da541c3b2444c27fabf3300b2f259d85da3024018"
+    },
+    {
+      "path": "analysis/emerald-de-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "21be78e84880a6e9afcdfa0db57255bb612fdc3b70869fdfc6b9c93e8807b95f"
+    },
+    {
+      "path": "analysis/emerald-fr-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "43c8fa84f005f79663906028807a3029d127d4e02c0dabd64229719f6a312ab1"
+    },
+    {
+      "path": "analysis/emerald-it-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "5af8471d2e44d8f94862161d778422a835abced83451ecb89c116b39777c0486"
+    },
+    {
+      "path": "analysis/emerald-es-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "752125f9336f494a81a683adae9b20b60119165f84a0a0ce24bfe76d8a8bcb3c"
+    },
+    {
+      "path": "research/affine-copy-bios-stubs-disassembly.md",
+      "sha256": "cedca70eab414aff92d26ada0bee9a8e671ad11605e272bf1caf582a174438c7"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stubs_disassembly.py",
+      "sha256": "b3b9061b4a6c04a5e56507daa35e695ff0cf65d8babeef3aa6d86821036db8e7"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
