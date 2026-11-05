@@ -2,10 +2,10 @@
   "schema_version": 1,
   "game": "Emerald",
   "root": "graphics",
-  "asset_count": 27,
-  "png_count": 20,
+  "asset_count": 45,
+  "png_count": 32,
   "metadata_count": 0,
-  "palette_count": 7,
+  "palette_count": 13,
   "official_language_priority": [
     "Japanese",
     "Korean",
@@ -64,6 +64,93 @@
         "bit_depth": 8,
         "color_type": "truecolor-alpha",
         "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-jp.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-bulbasaur-sprite-set.json",
+          "sha256": "ae38b99bb4f28071201ce2816142791a1e4080bedb6bb5e02b21b19710293bbe"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-jp.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-bulbasaur-sprite-set.json",
+          "sha256": "ae38b99bb4f28071201ce2816142791a1e4080bedb6bb5e02b21b19710293bbe"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-jp.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-bulbasaur-sprite-set.json",
+          "sha256": "ae38b99bb4f28071201ce2816142791a1e4080bedb6bb5e02b21b19710293bbe"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
       }
     },
     {
@@ -146,6 +233,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-bulbasaur-sprite-set.json",
+          "sha256": "2217189dd7a5b1fe1449fc1eb71bf0c2306d516ecde0ab159b297c3606513a63"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-bulbasaur-sprite-set.json",
+          "sha256": "2217189dd7a5b1fe1449fc1eb71bf0c2306d516ecde0ab159b297c3606513a63"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-bulbasaur-sprite-set.json",
+          "sha256": "2217189dd7a5b1fe1449fc1eb71bf0c2306d516ecde0ab159b297c3606513a63"
         }
       ],
       "palette": {
@@ -241,6 +415,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-de.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-bulbasaur-sprite-set.json",
+          "sha256": "9d129f4d48778586d9e7f40469fdac80436f3d2e921927cb3cd7697663024bd8"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-de.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-bulbasaur-sprite-set.json",
+          "sha256": "9d129f4d48778586d9e7f40469fdac80436f3d2e921927cb3cd7697663024bd8"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-de.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-bulbasaur-sprite-set.json",
+          "sha256": "9d129f4d48778586d9e7f40469fdac80436f3d2e921927cb3cd7697663024bd8"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-de.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -320,6 +581,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-fr.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-bulbasaur-sprite-set.json",
+          "sha256": "22bd0071a7cb31731126458992bd768a96ebcda4450409615d8b9415d6544474"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-fr.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-bulbasaur-sprite-set.json",
+          "sha256": "22bd0071a7cb31731126458992bd768a96ebcda4450409615d8b9415d6544474"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-fr.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-bulbasaur-sprite-set.json",
+          "sha256": "22bd0071a7cb31731126458992bd768a96ebcda4450409615d8b9415d6544474"
         }
       ],
       "palette": {
@@ -415,6 +763,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-bulbasaur-sprite-set.json",
+          "sha256": "b0833b64707c39e5440e63b8060c0346f77fb35426ac3a4d07b8c3f730f43a17"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-it.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-bulbasaur-sprite-set.json",
+          "sha256": "b0833b64707c39e5440e63b8060c0346f77fb35426ac3a4d07b8c3f730f43a17"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-it.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-bulbasaur-sprite-set.json",
+          "sha256": "b0833b64707c39e5440e63b8060c0346f77fb35426ac3a4d07b8c3f730f43a17"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-it.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -494,6 +929,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-es.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-bulbasaur-sprite-set.json",
+          "sha256": "354582da457b7484e58b8eb50adf339218bd26b5b3deebb8ec45972b0f7ef004"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-es.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-bulbasaur-sprite-set.json",
+          "sha256": "354582da457b7484e58b8eb50adf339218bd26b5b3deebb8ec45972b0f7ef004"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-es.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-set.json",
+          "sha256": "93ff4b5ba758d42378fd142b35b059cbe50df4602ce95eaf9d59f74228f869ee"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "fab25a00915b7155c1640a9b4fd6756c05aa1f8eeef25e291764ae25e25ab7e1"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-bulbasaur-sprite-set.json",
+          "sha256": "354582da457b7484e58b8eb50adf339218bd26b5b3deebb8ec45972b0f7ef004"
         }
       ],
       "palette": {
