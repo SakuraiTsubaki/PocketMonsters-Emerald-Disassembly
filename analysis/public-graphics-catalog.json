@@ -2,10 +2,10 @@
   "schema_version": 1,
   "game": "Emerald",
   "root": "graphics",
-  "asset_count": 45,
-  "png_count": 32,
+  "asset_count": 81,
+  "png_count": 56,
   "metadata_count": 0,
-  "palette_count": 13,
+  "palette_count": 25,
   "official_language_priority": [
     "Japanese",
     "Korean",
@@ -154,6 +154,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-jp.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+      "size": 827,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charmander-sprite-set.json",
+          "sha256": "242f8424691dc3a8f6305751d4fed0642ede0ab3b99838859463f6b84eb7f4aa"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-jp.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+      "size": 963,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charmander-sprite-set.json",
+          "sha256": "242f8424691dc3a8f6305751d4fed0642ede0ab3b99838859463f6b84eb7f4aa"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-jp.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charmander-sprite-set.json",
+          "sha256": "242f8424691dc3a8f6305751d4fed0642ede0ab3b99838859463f6b84eb7f4aa"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-jp.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -233,6 +320,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-jp.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+      "size": 777,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-squirtle-sprite-set.json",
+          "sha256": "77858b65443a68ac3d824413ba260bd21bedca0465c1475149050881deb7103b"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-jp.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+      "size": 988,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-squirtle-sprite-set.json",
+          "sha256": "77858b65443a68ac3d824413ba260bd21bedca0465c1475149050881deb7103b"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-jp.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+      "size": 191,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-squirtle-sprite-set.json",
+          "sha256": "77858b65443a68ac3d824413ba260bd21bedca0465c1475149050881deb7103b"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
         }
       ],
       "palette": {
@@ -328,6 +502,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-en.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+      "size": 827,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charmander-sprite-set.json",
+          "sha256": "4853c1e44ee27490af2d24a7ebc955ae7510cbe40b1006c6e7061cce984c66d3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-en.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+      "size": 963,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charmander-sprite-set.json",
+          "sha256": "4853c1e44ee27490af2d24a7ebc955ae7510cbe40b1006c6e7061cce984c66d3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-en.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charmander-sprite-set.json",
+          "sha256": "4853c1e44ee27490af2d24a7ebc955ae7510cbe40b1006c6e7061cce984c66d3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-en.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -407,6 +668,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-en.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+      "size": 777,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-squirtle-sprite-set.json",
+          "sha256": "e3c79883da34900b3f4ab5319ab45d4deb57ed1657d130d4d72ff14bec0d07a2"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-en.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+      "size": 988,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-squirtle-sprite-set.json",
+          "sha256": "e3c79883da34900b3f4ab5319ab45d4deb57ed1657d130d4d72ff14bec0d07a2"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-en.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+      "size": 191,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-squirtle-sprite-set.json",
+          "sha256": "e3c79883da34900b3f4ab5319ab45d4deb57ed1657d130d4d72ff14bec0d07a2"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
         }
       ],
       "palette": {
@@ -502,6 +850,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-de.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+      "size": 827,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charmander-sprite-set.json",
+          "sha256": "67f7db6459cb3a63ad3b17a55755c8f7f20d71b3cb6a0d5494aca946f4bf5599"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-de.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+      "size": 963,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charmander-sprite-set.json",
+          "sha256": "67f7db6459cb3a63ad3b17a55755c8f7f20d71b3cb6a0d5494aca946f4bf5599"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-de.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charmander-sprite-set.json",
+          "sha256": "67f7db6459cb3a63ad3b17a55755c8f7f20d71b3cb6a0d5494aca946f4bf5599"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-de.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -581,6 +1016,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-de.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+      "size": 777,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-squirtle-sprite-set.json",
+          "sha256": "57cd79fa6aa6314b9df4adcabbabfa87aa842a9e0090772ba1409dd7a02263b7"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-de.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+      "size": 988,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-squirtle-sprite-set.json",
+          "sha256": "57cd79fa6aa6314b9df4adcabbabfa87aa842a9e0090772ba1409dd7a02263b7"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-de.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+      "size": 191,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-squirtle-sprite-set.json",
+          "sha256": "57cd79fa6aa6314b9df4adcabbabfa87aa842a9e0090772ba1409dd7a02263b7"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
         }
       ],
       "palette": {
@@ -676,6 +1198,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-fr.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+      "size": 827,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charmander-sprite-set.json",
+          "sha256": "6e0551f48b13793fac65d39e6676ab51b90a88ec179cea2403ba216cfe688dfd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-fr.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+      "size": 963,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charmander-sprite-set.json",
+          "sha256": "6e0551f48b13793fac65d39e6676ab51b90a88ec179cea2403ba216cfe688dfd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-fr.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charmander-sprite-set.json",
+          "sha256": "6e0551f48b13793fac65d39e6676ab51b90a88ec179cea2403ba216cfe688dfd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-fr.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -755,6 +1364,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-fr.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+      "size": 777,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-squirtle-sprite-set.json",
+          "sha256": "f929e19c36754b8e252ed8773c5d4cbddaf01871fe4690dc6c1b2cec2b1477b9"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-fr.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+      "size": 988,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-squirtle-sprite-set.json",
+          "sha256": "f929e19c36754b8e252ed8773c5d4cbddaf01871fe4690dc6c1b2cec2b1477b9"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-fr.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+      "size": 191,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-squirtle-sprite-set.json",
+          "sha256": "f929e19c36754b8e252ed8773c5d4cbddaf01871fe4690dc6c1b2cec2b1477b9"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
         }
       ],
       "palette": {
@@ -850,6 +1546,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-it.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+      "size": 827,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charmander-sprite-set.json",
+          "sha256": "71b9f1e9453fecac960a0aff7bb383dd4b05cce977f017713dd22bb9153e7845"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-it.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+      "size": 963,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charmander-sprite-set.json",
+          "sha256": "71b9f1e9453fecac960a0aff7bb383dd4b05cce977f017713dd22bb9153e7845"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-it.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charmander-sprite-set.json",
+          "sha256": "71b9f1e9453fecac960a0aff7bb383dd4b05cce977f017713dd22bb9153e7845"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-it.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -929,6 +1712,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-it.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+      "size": 777,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-squirtle-sprite-set.json",
+          "sha256": "2ca3956f0371374e5be57dd3be0e22afaad9055b7e7113250dfcbf2e7c8157d0"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-it.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+      "size": 988,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-squirtle-sprite-set.json",
+          "sha256": "2ca3956f0371374e5be57dd3be0e22afaad9055b7e7113250dfcbf2e7c8157d0"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-it.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+      "size": 191,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-squirtle-sprite-set.json",
+          "sha256": "2ca3956f0371374e5be57dd3be0e22afaad9055b7e7113250dfcbf2e7c8157d0"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
         }
       ],
       "palette": {
@@ -1024,6 +1894,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-es.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+      "size": 827,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charmander-sprite-set.json",
+          "sha256": "f20e29b3c893740f90f50eb263b48e8e6a8a90ba57af4be1390f9ff51f4019fe"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-es.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+      "size": 963,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charmander-sprite-set.json",
+          "sha256": "f20e29b3c893740f90f50eb263b48e8e6a8a90ba57af4be1390f9ff51f4019fe"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-es.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "b5d95ea43ceda38cabc1bee318d9404f6c678cfe5a5fd740fe97a72571c0cafa"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "17718543076ab1e249ce2f26647654a37b037b6592d9afdce54abb202e3779af"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charmander-sprite-set.json",
+          "sha256": "f20e29b3c893740f90f50eb263b48e8e6a8a90ba57af4be1390f9ff51f4019fe"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-es.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -1103,6 +2060,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "9fdf83b2d0906920f2ffdb5b0700040ab810ae3af03c167a8a544b65b5b2c722"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-es.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+      "size": 777,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-squirtle-sprite-set.json",
+          "sha256": "bf50ea281aa3632db66a017f2ed80e67ae5f2eb4b69b2bc18ca0df46c3e55141"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-es.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+      "size": 988,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-squirtle-sprite-set.json",
+          "sha256": "bf50ea281aa3632db66a017f2ed80e67ae5f2eb4b69b2bc18ca0df46c3e55141"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-es.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+      "size": 191,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "d43d537214b4f7e4d7921ed323a93a736449217915626594938b2ba44cedc4b1"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-squirtle-sprite-set.json",
+          "sha256": "bf50ea281aa3632db66a017f2ed80e67ae5f2eb4b69b2bc18ca0df46c3e55141"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
         }
       ],
       "palette": {
