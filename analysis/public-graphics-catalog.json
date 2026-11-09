@@ -2,10 +2,10 @@
   "schema_version": 1,
   "game": "Emerald",
   "root": "graphics",
-  "asset_count": 81,
-  "png_count": 56,
+  "asset_count": 117,
+  "png_count": 80,
   "metadata_count": 0,
-  "palette_count": 25,
+  "palette_count": 37,
   "official_language_priority": [
     "Japanese",
     "Korean",
@@ -241,6 +241,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-rev0-jp.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+      "size": 1142,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-ivysaur-sprite-set.json",
+          "sha256": "aaeb6298c27189a0f343eb47d6e917d3a0f7a188afbf2e50f6ae0b0e281583e5"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev0-jp.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+      "size": 1201,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-ivysaur-sprite-set.json",
+          "sha256": "aaeb6298c27189a0f343eb47d6e917d3a0f7a188afbf2e50f6ae0b0e281583e5"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev0-jp.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-ivysaur-sprite-set.json",
+          "sha256": "aaeb6298c27189a0f343eb47d6e917d3a0f7a188afbf2e50f6ae0b0e281583e5"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-jp.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -407,6 +494,93 @@
         {
           "path": "analysis/squirtle-sprite-set-summary.json",
           "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev0-jp.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+      "size": 1489,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-venusaur-sprite-set.json",
+          "sha256": "de5f0dc2736eefeb6bedda13ecdd1961621934a2c80618fb0a6453d770f05485"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-rev0-jp.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+      "size": 1796,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-venusaur-sprite-set.json",
+          "sha256": "de5f0dc2736eefeb6bedda13ecdd1961621934a2c80618fb0a6453d770f05485"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev0-jp.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-venusaur-sprite-set.json",
+          "sha256": "de5f0dc2736eefeb6bedda13ecdd1961621934a2c80618fb0a6453d770f05485"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
         }
       ],
       "palette": {
@@ -589,6 +763,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-rev0-en.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+      "size": 1142,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-ivysaur-sprite-set.json",
+          "sha256": "eaaaa07b4f94168baf13f52ec9fd95d5814e1757ab93894ce027a92d66006180"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev0-en.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+      "size": 1201,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-ivysaur-sprite-set.json",
+          "sha256": "eaaaa07b4f94168baf13f52ec9fd95d5814e1757ab93894ce027a92d66006180"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev0-en.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-ivysaur-sprite-set.json",
+          "sha256": "eaaaa07b4f94168baf13f52ec9fd95d5814e1757ab93894ce027a92d66006180"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-en.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -755,6 +1016,93 @@
         {
           "path": "analysis/squirtle-sprite-set-summary.json",
           "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev0-en.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+      "size": 1489,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-venusaur-sprite-set.json",
+          "sha256": "b85a11c1fc883b2b22585746b83cb354b241c58ec9816ff75badf87fe37f2b87"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-rev0-en.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+      "size": 1796,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-venusaur-sprite-set.json",
+          "sha256": "b85a11c1fc883b2b22585746b83cb354b241c58ec9816ff75badf87fe37f2b87"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev0-en.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-venusaur-sprite-set.json",
+          "sha256": "b85a11c1fc883b2b22585746b83cb354b241c58ec9816ff75badf87fe37f2b87"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
         }
       ],
       "palette": {
@@ -937,6 +1285,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-rev0-de.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+      "size": 1142,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-ivysaur-sprite-set.json",
+          "sha256": "31803a342ac094f30e8747893a69c382e168d80b925b8dc5b99f1836f939b5dd"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev0-de.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+      "size": 1201,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-ivysaur-sprite-set.json",
+          "sha256": "31803a342ac094f30e8747893a69c382e168d80b925b8dc5b99f1836f939b5dd"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev0-de.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-ivysaur-sprite-set.json",
+          "sha256": "31803a342ac094f30e8747893a69c382e168d80b925b8dc5b99f1836f939b5dd"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-de.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -1103,6 +1538,93 @@
         {
           "path": "analysis/squirtle-sprite-set-summary.json",
           "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev0-de.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+      "size": 1489,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-venusaur-sprite-set.json",
+          "sha256": "8888acfe10c7d89c7ba941f2af6f66af9ddb97df07d0acb5b20aeff358684b36"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-rev0-de.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+      "size": 1796,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-venusaur-sprite-set.json",
+          "sha256": "8888acfe10c7d89c7ba941f2af6f66af9ddb97df07d0acb5b20aeff358684b36"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev0-de.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-venusaur-sprite-set.json",
+          "sha256": "8888acfe10c7d89c7ba941f2af6f66af9ddb97df07d0acb5b20aeff358684b36"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
         }
       ],
       "palette": {
@@ -1285,6 +1807,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-rev0-fr.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+      "size": 1142,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-ivysaur-sprite-set.json",
+          "sha256": "64818e188e5a1969b1b44bf4088b212fd27e3d49a9077bf56979ee197d420521"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev0-fr.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+      "size": 1201,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-ivysaur-sprite-set.json",
+          "sha256": "64818e188e5a1969b1b44bf4088b212fd27e3d49a9077bf56979ee197d420521"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev0-fr.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-ivysaur-sprite-set.json",
+          "sha256": "64818e188e5a1969b1b44bf4088b212fd27e3d49a9077bf56979ee197d420521"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-fr.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -1451,6 +2060,93 @@
         {
           "path": "analysis/squirtle-sprite-set-summary.json",
           "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev0-fr.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+      "size": 1489,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-venusaur-sprite-set.json",
+          "sha256": "0fda512c47c41f8b37076aa4d236c7f1b7121022f9a382d0f49cfbdb0684eb31"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-rev0-fr.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+      "size": 1796,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-venusaur-sprite-set.json",
+          "sha256": "0fda512c47c41f8b37076aa4d236c7f1b7121022f9a382d0f49cfbdb0684eb31"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev0-fr.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-venusaur-sprite-set.json",
+          "sha256": "0fda512c47c41f8b37076aa4d236c7f1b7121022f9a382d0f49cfbdb0684eb31"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
         }
       ],
       "palette": {
@@ -1633,6 +2329,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-rev0-it.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+      "size": 1142,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-ivysaur-sprite-set.json",
+          "sha256": "021480b6ca24a24005b5f392afbcf63124e67c50bdd2b2298f6b252111c2600e"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev0-it.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+      "size": 1201,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-ivysaur-sprite-set.json",
+          "sha256": "021480b6ca24a24005b5f392afbcf63124e67c50bdd2b2298f6b252111c2600e"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev0-it.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-ivysaur-sprite-set.json",
+          "sha256": "021480b6ca24a24005b5f392afbcf63124e67c50bdd2b2298f6b252111c2600e"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-it.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -1799,6 +2582,93 @@
         {
           "path": "analysis/squirtle-sprite-set-summary.json",
           "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev0-it.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+      "size": 1489,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-venusaur-sprite-set.json",
+          "sha256": "3608a524db693d3673e9180fafa8247374b610d17940294bf0752524be3f9cc9"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-rev0-it.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+      "size": 1796,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-venusaur-sprite-set.json",
+          "sha256": "3608a524db693d3673e9180fafa8247374b610d17940294bf0752524be3f9cc9"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev0-it.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-venusaur-sprite-set.json",
+          "sha256": "3608a524db693d3673e9180fafa8247374b610d17940294bf0752524be3f9cc9"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
         }
       ],
       "palette": {
@@ -1981,6 +2851,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/ivysaur-back-rev0-es.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+      "size": 1142,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-ivysaur-sprite-set.json",
+          "sha256": "f444179c0d0a28b36bf82b7e3a79c0fe1c24721ec94e0032db8afd872e4fa247"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev0-es.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+      "size": 1201,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-ivysaur-sprite-set.json",
+          "sha256": "f444179c0d0a28b36bf82b7e3a79c0fe1c24721ec94e0032db8afd872e4fa247"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev0-es.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/ivysaur-sprite-set.json",
+          "sha256": "c1033f8d2830cf9c62ffb2cb5ffa20f420de8f910b6dbe5563ccb10faec435f8"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-ivysaur-sprite-set.json",
+          "sha256": "f444179c0d0a28b36bf82b7e3a79c0fe1c24721ec94e0032db8afd872e4fa247"
+        },
+        {
+          "path": "analysis/ivysaur-sprite-set-summary.json",
+          "sha256": "a9b172f487d9cc002b0ff7cdbff27df16b1cc6e4d91f2f94f968bac4cb75a3e3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-es.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
       "size": 912,
@@ -2147,6 +3104,93 @@
         {
           "path": "analysis/squirtle-sprite-set-summary.json",
           "sha256": "3bc3d7867f02c1b184cdf5a3978f9851c521af80f10c8d78a7f64d91cf8134dd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev0-es.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+      "size": 1489,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-venusaur-sprite-set.json",
+          "sha256": "b6cfe6ab4ee1f3c28492e55f6135cd739bb56abd3f8d765f41822e48cf381909"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-rev0-es.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+      "size": 1796,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-venusaur-sprite-set.json",
+          "sha256": "b6cfe6ab4ee1f3c28492e55f6135cd739bb56abd3f8d765f41822e48cf381909"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev0-es.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/venusaur-sprite-set.json",
+          "sha256": "e0fb9c32513f00d75dd12871371229a0d6f23c10c12e70e2d32553ce1b4542bd"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-venusaur-sprite-set.json",
+          "sha256": "b6cfe6ab4ee1f3c28492e55f6135cd739bb56abd3f8d765f41822e48cf381909"
+        },
+        {
+          "path": "analysis/venusaur-sprite-set-summary.json",
+          "sha256": "4e4f39456917df0c5c06221e6c1185be0c931e2e91031840043f6a10451ff6f2"
         }
       ],
       "palette": {
