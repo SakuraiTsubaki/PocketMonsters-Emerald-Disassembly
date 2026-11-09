@@ -2,10 +2,10 @@
   "schema_version": 1,
   "game": "Emerald",
   "root": "graphics",
-  "asset_count": 117,
-  "png_count": 80,
+  "asset_count": 153,
+  "png_count": 104,
   "metadata_count": 0,
-  "palette_count": 37,
+  "palette_count": 49,
   "official_language_priority": [
     "Japanese",
     "Korean",
@@ -154,6 +154,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charizard-back-rev0-jp.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+      "size": 1311,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charizard-sprite-set.json",
+          "sha256": "f423e0c1014713c02ce40483326e58252944577e3df8e30e6af1d44e4be70a28"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-jp.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+      "size": 1725,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charizard-sprite-set.json",
+          "sha256": "f423e0c1014713c02ce40483326e58252944577e3df8e30e6af1d44e4be70a28"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-jp.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charizard-sprite-set.json",
+          "sha256": "f423e0c1014713c02ce40483326e58252944577e3df8e30e6af1d44e4be70a28"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/charmander-back-rev0-jp.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
       "size": 827,
@@ -233,6 +320,93 @@
         {
           "path": "analysis/emerald-jp-rev0-charmander-sprite-set.json",
           "sha256": "242f8424691dc3a8f6305751d4fed0642ede0ab3b99838859463f6b84eb7f4aa"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-jp.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "size": 892,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charmeleon-sprite-set.json",
+          "sha256": "a5ed8616ebe03dd3a086c130d6682ed9f8ef270b56ee8975dacdafd13480ca25"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-jp.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "size": 1232,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charmeleon-sprite-set.json",
+          "sha256": "a5ed8616ebe03dd3a086c130d6682ed9f8ef270b56ee8975dacdafd13480ca25"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-jp.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-jp-rev0-charmeleon-sprite-set.json",
+          "sha256": "a5ed8616ebe03dd3a086c130d6682ed9f8ef270b56ee8975dacdafd13480ca25"
         }
       ],
       "palette": {
@@ -676,6 +850,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charizard-back-rev0-en.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+      "size": 1311,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charizard-sprite-set.json",
+          "sha256": "5f6b209d17e9bca2a2c85dcca136494e55a554496049bd9cb193be6a3066ff61"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-en.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+      "size": 1725,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charizard-sprite-set.json",
+          "sha256": "5f6b209d17e9bca2a2c85dcca136494e55a554496049bd9cb193be6a3066ff61"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-en.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charizard-sprite-set.json",
+          "sha256": "5f6b209d17e9bca2a2c85dcca136494e55a554496049bd9cb193be6a3066ff61"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/charmander-back-rev0-en.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
       "size": 827,
@@ -755,6 +1016,93 @@
         {
           "path": "analysis/emerald-en-rev0-charmander-sprite-set.json",
           "sha256": "4853c1e44ee27490af2d24a7ebc955ae7510cbe40b1006c6e7061cce984c66d3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-en.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "size": 892,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charmeleon-sprite-set.json",
+          "sha256": "8debcf0e3ec1b7045437df73f0658dacf4ed4cfcc12ed6d83026f078cadbbc15"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-en.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "size": 1232,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charmeleon-sprite-set.json",
+          "sha256": "8debcf0e3ec1b7045437df73f0658dacf4ed4cfcc12ed6d83026f078cadbbc15"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-en.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-en-rev0-charmeleon-sprite-set.json",
+          "sha256": "8debcf0e3ec1b7045437df73f0658dacf4ed4cfcc12ed6d83026f078cadbbc15"
         }
       ],
       "palette": {
@@ -1198,6 +1546,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charizard-back-rev0-de.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+      "size": 1311,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charizard-sprite-set.json",
+          "sha256": "4f75f7af4ecf073f124b1339eaeb7d22c8c0d33566390b9fe71af7cda2c18cb3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-de.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+      "size": 1725,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charizard-sprite-set.json",
+          "sha256": "4f75f7af4ecf073f124b1339eaeb7d22c8c0d33566390b9fe71af7cda2c18cb3"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-de.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charizard-sprite-set.json",
+          "sha256": "4f75f7af4ecf073f124b1339eaeb7d22c8c0d33566390b9fe71af7cda2c18cb3"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/charmander-back-rev0-de.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
       "size": 827,
@@ -1277,6 +1712,93 @@
         {
           "path": "analysis/emerald-de-rev0-charmander-sprite-set.json",
           "sha256": "67f7db6459cb3a63ad3b17a55755c8f7f20d71b3cb6a0d5494aca946f4bf5599"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-de.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "size": 892,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charmeleon-sprite-set.json",
+          "sha256": "b0eba9860a3802a13b0e982ebddef7e712f26cde42ff3db881b06eaccfa1b605"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-de.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "size": 1232,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charmeleon-sprite-set.json",
+          "sha256": "b0eba9860a3802a13b0e982ebddef7e712f26cde42ff3db881b06eaccfa1b605"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-de.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-de-rev0-charmeleon-sprite-set.json",
+          "sha256": "b0eba9860a3802a13b0e982ebddef7e712f26cde42ff3db881b06eaccfa1b605"
         }
       ],
       "palette": {
@@ -1720,6 +2242,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charizard-back-rev0-fr.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+      "size": 1311,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charizard-sprite-set.json",
+          "sha256": "2c089d3a08a43eb31569b27388d19b04ff6c54cb2120c762b69ed63b1fd1f0bf"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-fr.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+      "size": 1725,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charizard-sprite-set.json",
+          "sha256": "2c089d3a08a43eb31569b27388d19b04ff6c54cb2120c762b69ed63b1fd1f0bf"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-fr.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charizard-sprite-set.json",
+          "sha256": "2c089d3a08a43eb31569b27388d19b04ff6c54cb2120c762b69ed63b1fd1f0bf"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/charmander-back-rev0-fr.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
       "size": 827,
@@ -1799,6 +2408,93 @@
         {
           "path": "analysis/emerald-fr-rev0-charmander-sprite-set.json",
           "sha256": "6e0551f48b13793fac65d39e6676ab51b90a88ec179cea2403ba216cfe688dfd"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-fr.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "size": 892,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charmeleon-sprite-set.json",
+          "sha256": "09fdd1a44cf1a4ebe322fe378e402b7ac261187394b1e6eca22806d702fc5363"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-fr.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "size": 1232,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charmeleon-sprite-set.json",
+          "sha256": "09fdd1a44cf1a4ebe322fe378e402b7ac261187394b1e6eca22806d702fc5363"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-fr.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-fr-rev0-charmeleon-sprite-set.json",
+          "sha256": "09fdd1a44cf1a4ebe322fe378e402b7ac261187394b1e6eca22806d702fc5363"
         }
       ],
       "palette": {
@@ -2242,6 +2938,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charizard-back-rev0-it.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+      "size": 1311,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charizard-sprite-set.json",
+          "sha256": "9261af9cc78027206e8a593a75da04580ad446bff6a8dfdb37d3b59049b30797"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-it.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+      "size": 1725,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charizard-sprite-set.json",
+          "sha256": "9261af9cc78027206e8a593a75da04580ad446bff6a8dfdb37d3b59049b30797"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-it.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charizard-sprite-set.json",
+          "sha256": "9261af9cc78027206e8a593a75da04580ad446bff6a8dfdb37d3b59049b30797"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/charmander-back-rev0-it.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
       "size": 827,
@@ -2321,6 +3104,93 @@
         {
           "path": "analysis/emerald-it-rev0-charmander-sprite-set.json",
           "sha256": "71b9f1e9453fecac960a0aff7bb383dd4b05cce977f017713dd22bb9153e7845"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-it.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "size": 892,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charmeleon-sprite-set.json",
+          "sha256": "be6c2cde2bf05bc8346fba21d7c4748f4aaab25b02a20bb0d13ad4d05453751e"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-it.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "size": 1232,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charmeleon-sprite-set.json",
+          "sha256": "be6c2cde2bf05bc8346fba21d7c4748f4aaab25b02a20bb0d13ad4d05453751e"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-it.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-it-rev0-charmeleon-sprite-set.json",
+          "sha256": "be6c2cde2bf05bc8346fba21d7c4748f4aaab25b02a20bb0d13ad4d05453751e"
         }
       ],
       "palette": {
@@ -2764,6 +3634,93 @@
       }
     },
     {
+      "path": "graphics/pokemon/charizard-back-rev0-es.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+      "size": 1311,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charizard-sprite-set.json",
+          "sha256": "7b86d2e31ae832a2f4da1165dd00a6045116618e17cbb1967427223ac204d8c6"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-es.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+      "size": 1725,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charizard-sprite-set.json",
+          "sha256": "7b86d2e31ae832a2f4da1165dd00a6045116618e17cbb1967427223ac204d8c6"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-es.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charizard-sprite-set.json",
+          "sha256": "4e947305698ede229ad67c64aa8ebaa3cbb2f0c9979e36117add8fa46cb410fc"
+        },
+        {
+          "path": "analysis/charizard-sprite-set-summary.json",
+          "sha256": "66da8768feab4913dd112905b3ebb22f2c3fba8a0bae2741008b89a77e03d339"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charizard-sprite-set.json",
+          "sha256": "7b86d2e31ae832a2f4da1165dd00a6045116618e17cbb1967427223ac204d8c6"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
       "path": "graphics/pokemon/charmander-back-rev0-es.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
       "size": 827,
@@ -2843,6 +3800,93 @@
         {
           "path": "analysis/emerald-es-rev0-charmander-sprite-set.json",
           "sha256": "f20e29b3c893740f90f50eb263b48e8e6a8a90ba57af4be1390f9ff51f4019fe"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-es.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "size": 892,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charmeleon-sprite-set.json",
+          "sha256": "e9b21b9d65b08f156b5346ca32e8bfc4c854b7d1c9e3532d08c92873f8956997"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-es.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "size": 1232,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charmeleon-sprite-set.json",
+          "sha256": "e9b21b9d65b08f156b5346ca32e8bfc4c854b7d1c9e3532d08c92873f8956997"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-es.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmeleon-sprite-set.json",
+          "sha256": "24e0e049b549261c45fdf1ccdab8f3259f2a48d94eb093c0bb07088767f1f6bd"
+        },
+        {
+          "path": "analysis/charmeleon-sprite-set-summary.json",
+          "sha256": "e64502f07ef15942a0fe359336a1fd00eb773b2632f31e2b5a6fd365d932cbdb"
+        },
+        {
+          "path": "analysis/emerald-es-rev0-charmeleon-sprite-set.json",
+          "sha256": "e9b21b9d65b08f156b5346ca32e8bfc4c854b7d1c9e3532d08c92873f8956997"
         }
       ],
       "palette": {
