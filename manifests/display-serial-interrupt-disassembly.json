@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Emerald",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_display_interrupts.py",
+    "tool_sha256": "8e570c5ad9c1c43d7d3da7198d1c7ce68e10a42ab7b9221fe78c319072ca00fc"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/display_serial_interrupts.s",
+      "sha256": "48e98fbb7544980487d435e8c351dd56edcbb82ab3f7014310d346517e7d1a5e"
+    },
+    {
+      "path": "analysis/display-serial-interrupt-disassembly-summary.json",
+      "sha256": "fec66d0c1ad8530bb7e8071dce7da4c803ea95ee73f8a59b12e18d1f98a3067a"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "cde19f8fc43c6001927b117c2cac4b1ce6fc2486e63a9cb3a8091f875529256a"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "7225d077c159528760cd16ab262fb822aed330b2617308e88f5ea29dffcaa973"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "13bd5a8f6c7b284197bdb022670819b0b630774c816f24727f0178d386fdeeac"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "550d96c24ba5fa7e7a174bfc66a5fdf07a6e80a44c00dfd69bde8ee0769d12e2"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "a898a84fd01711cf5d18b0dac12c4637e5170e9df42942b4b9d6afa0ede2e74c"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "46a8d49c426441ade73c7d02e4961ffe5e029b05c4664ae6cc19e214b02968c2"
+    },
+    {
+      "path": "research/display-serial-interrupt-disassembly.md",
+      "sha256": "2302e859aa7c14a82f0e79d59bc4fba6db458e4d1ea096e8cad90100dffab51f"
+    },
+    {
+      "path": "tests/test_display_serial_interrupts_disassembly.py",
+      "sha256": "b8b33b8b3f91082e7f9f697f58259ea6986e261afe3537a4b618205f1a6eab2d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
