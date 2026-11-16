@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Emerald",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_key_input.py",
+    "tool_sha256": "fda087b4e19eae4cef148639bffa19ae26d650316346bf8e67bc6b5e32b838bd"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/key_input.s",
+      "sha256": "51e92e53a1c2139890779fddc89edebacb59d4098c595286cde51fd9cf934392"
+    },
+    {
+      "path": "analysis/key-input-disassembly-summary.json",
+      "sha256": "71dbd8a725f13bf041dc036485db46ba5593b452b9b724e03b520cfa1b626fdc"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-key-input-disassembly.json",
+      "sha256": "a38f00eed512b363a4889dc8489fd59d7f55c855c126c3940e00fccc2d1f16bf"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-key-input-disassembly.json",
+      "sha256": "acad0c42f5840536dd245dbb69458ea91d04d99f9efe053f0596c0460edfce8d"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-key-input-disassembly.json",
+      "sha256": "a7d7449766d8e3d213b2d6638add32b207a11415562bafd2e8c268b5310c3eb0"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-key-input-disassembly.json",
+      "sha256": "d1e75f44e9f6f98b4580748f69e3938abac03f367a3e72fa3569280651f9c0ec"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-key-input-disassembly.json",
+      "sha256": "dfe29ba37038d9d06aed40cdcdd04b03551683f54f7eb961b83c550a3b0468e3"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-key-input-disassembly.json",
+      "sha256": "76951276d579d1a2822bc356702e211ff5a8d326a5ddd4647e44f614d6f20c82"
+    },
+    {
+      "path": "research/key-input-disassembly.md",
+      "sha256": "ed6999c23daad7e6f3263b67dfcbb14d560092a1f4f713cb1b6f964dba073309"
+    },
+    {
+      "path": "tests/test_key_input_disassembly.py",
+      "sha256": "7007e823d9e5a544c8944607f2250be2080311b7df22a7b74d4a38ac2e8b9524"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
