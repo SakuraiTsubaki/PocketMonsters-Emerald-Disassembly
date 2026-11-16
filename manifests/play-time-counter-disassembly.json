@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Emerald",
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_Update",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "profile": "emerald",
+  "storage_profile": "pointer",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_play_time.py",
+    "tool_sha256": "55a2f1885042c0cd07838ff2f41e864cf776c9be5288be7e63ac23ddcb72acfe"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/play_time_counter.s",
+      "sha256": "63dd08f9699d57df78865ca827819cbc16b8819d576f6830c43459a77c96ad57"
+    },
+    {
+      "path": "analysis/play-time-counter-disassembly-summary.json",
+      "sha256": "fbcf0e382e38d661ca27e79122d4ff53c17d8cc3efc6c4a7fb559ff2cb7fffaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "81ca9036ac0c304c37efc64500b83440371902aec3525b4d13f8e2471335fe27"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "9421e8077eefc1b3921e30403f95cc7d9b53f4f60af8db931c9600f899c9a200"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "e37209fc9caee967257c40d02ec2708a9da2410c3b0e52f7ba63c282ab8149f7"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "15be287829596a4d93d3f1305fff8583ddf80a82321fe3d3655cfea1272e95e3"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "668a4aca52b09c3616b17664d020c333fe2518004d2523b156a0840a19297294"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "ee80ada420d3dc338a5f257e9a2437d013cfa4f4517638ba246a526280c25edd"
+    },
+    {
+      "path": "research/play-time-counter-disassembly.md",
+      "sha256": "c3d8b7302460b817c9729fc1e828d4d0c400e15f7220a824a40371ec80391a48"
+    },
+    {
+      "path": "tests/test_play_time_counter_disassembly.py",
+      "sha256": "1236c486d105c1494602b63d93090168440fcdcdca3f1455624ed3fdbf0af66b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
