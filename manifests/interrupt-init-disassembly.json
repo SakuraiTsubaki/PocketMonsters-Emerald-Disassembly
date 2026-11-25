@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Emerald",
+  "profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_interrupt_init.py",
+    "tool_sha256": "a8cd89a6748016898bf25c749941988ab7ab22589e5f5edec34f03996eaf17a5"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/interrupt_init.s",
+      "sha256": "ff12d3d55674c4ce27691ca6930f9c32ae13fd6505c31b509d4aff9c055c9b3e"
+    },
+    {
+      "path": "analysis/interrupt-init-disassembly-summary.json",
+      "sha256": "2e30e1f294c466d84b62af142e3f8ea49599b3043ba621881d296f5f1ab887ab"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "f89d38cc17c63d59974e88ebc09c161a5637534eb621cf0af2390e1e7d9bb02e"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "33b2bc833b7ebc33421a0183a906b2786dd96de6151bf646ab726ac2e5feb1e2"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "a1ce397f520d5d6fa1e3a60d7d6247ae17e306e28710b6b8d860f5a85433c299"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "7a05cec226308b2f6020e7c914c18d5835addaf3996cc323f3e2f1688f9810ad"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "974937cb6e85443c24a3af4eefeafa81545ebb6f6ec6f611171d3eaba56e4eac"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "d8f0a8b71f14ddbca6f61435e84e2198fb1eb218d0ddaa3c1de9f1c083ddd05f"
+    },
+    {
+      "path": "research/interrupt-init-disassembly.md",
+      "sha256": "bdc187304b2960919ae761d1ec67aae0ceb4be076102e3431f9a14140e4d7762"
+    },
+    {
+      "path": "tests/test_interrupt_init_disassembly.py",
+      "sha256": "babf45a22c706492d2ce36d942e5fef50857c600ff9e7e920981a6befe6f67f4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
