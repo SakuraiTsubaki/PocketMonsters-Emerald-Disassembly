@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "function": "AgbMain",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_agb_main.py",
+    "tool_sha256": "2c914b3c5961bed5e0f79ef2129c1213d77f8a4132c0fc2d1601da571d4a2e0f"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "analysis/agb-main-disassembly-profile.json",
+      "sha256": "084773a5a0ce7912e917a7a61b0df30039c8689a8e84802250a04024372b63bf"
+    },
+    {
+      "path": "src/agb_main.s",
+      "sha256": "0ec6e430f829236f4bdbd1993c1f05b91a004870bb6d82d13a470665d5110f54"
+    },
+    {
+      "path": "analysis/agb-main-disassembly-summary.json",
+      "sha256": "70b2c2d6fe5581c98df19105814e919a1e9e61e01d9c38b9f430f66bf22ea893"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-agb-main-disassembly.json",
+      "sha256": "b272ea3b3a662b348c5840c8936f14178f4586bf5dd07fc0f36dde58d9be6c0f"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-agb-main-disassembly.json",
+      "sha256": "fcc07c7706066b120b21c08b4c0ecc694f11c9ab63b5bd89c7657b06f1dead36"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-agb-main-disassembly.json",
+      "sha256": "b8c081ba53c3648f2639cea520e6b6a246b6649094b1feba919f1dec21c6eca2"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-agb-main-disassembly.json",
+      "sha256": "7687914de1ce7df304d574ba3a38d3e9dc4aff8eb4026d16f1c4ec192200c502"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-agb-main-disassembly.json",
+      "sha256": "367574deb692d784dfe16476844f748293590a24d9733c58d2612ead5e64d5d4"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-agb-main-disassembly.json",
+      "sha256": "9b9d095a9fd45edb63e6ea8cda0a45222c6b34c7498e53abd0fe790b3392437d"
+    },
+    {
+      "path": "research/agb-main-disassembly.md",
+      "sha256": "3d374a8cc5489e3dcff173bba3decd09474eb6841fc7719b53987c79b187a26c"
+    },
+    {
+      "path": "tests/test_agb_main_disassembly.py",
+      "sha256": "1f9dd583f419e54d30d758232529e607bafce7cf56687e0f351a30784509ceb8"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
