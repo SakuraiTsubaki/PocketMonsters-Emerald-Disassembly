@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Emerald",
+  "profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_vblank_intr.py",
+    "tool_sha256": "b53f1da576895069c055491a85c0179ceaebff921319b84d71782c1cd1365c2d"
+  },
+  "outputs": [
+    {
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    },
+    {
+      "path": "src/vblank_intr.s",
+      "sha256": "a60642c201030a82b0635a6707ac88d128a52b48064bfb0045b2f2e9537ced1e"
+    },
+    {
+      "path": "analysis/vblank-intr-disassembly-summary.json",
+      "sha256": "ed08aa485a6df039f40b20e80962d6b5a7d4565006e18e521813a9a1b68f1e5e"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "2d1d77b402b9c7099034b007ed38dfcf94969d75d6057d55b6c77b6a6954ae07"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "022eed66c8675d81a57d610c7cdce615c1a35c79ef7d32c5323979510f7f5216"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "3997132507b2d68c7802857140184bfa4653f307fab511e372e2108116d9ab74"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "4d9b3a0c581f7fbaf9edfb64a13d1c85ecbbe8e60d0e2f12bec8504f7bd962ac"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "d8c135c386401448ac5c76a163c810b1094f1f3d2deee49f38cd1ad08d693f7e"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "b6157ca1e84ba37529266f64b6c0b63b4c9884d6450a22ac13d3d9b0b5c9bc88"
+    },
+    {
+      "path": "research/vblank-intr-disassembly.md",
+      "sha256": "bc31823bb784ad60f01776096442c0a0fd8fe7451b4fc7bdd5cf96cca2ff0608"
+    },
+    {
+      "path": "tests/test_vblank_intr_disassembly.py",
+      "sha256": "b74e586cd12cf7b63bc67db119ec12b0f505976410bc3d3bc7b974a1a772efd7"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
